@@ -1,4 +1,6 @@
-# Kanttekeningen datering
+# unruh-phusis
+
+## Kanttekeningen datering
 
 * Aanname paginering *Wegmarken*: $p_{GA} = p_{Mijn\ editie} + 2$ 
 * Als een referentie meerdere pagina's bestrijkt (bijv. '122f', '49ff' of '123-125'), dan tellen we dat gewoon als één referentie. Men zou kunnen zeggen dat φύσις in dit dit bereik strikt gezien vaker voorkomt, maar daar valt tegenin te brengen dat ook op een enkele pagina dit woord meerdere keren voor kan komen. De aanname is dus dat elke referentie op zich een eenheid is waarin φύσις ter sprake komt.
@@ -11,7 +13,7 @@
   * Van de Schwarze hefte is niet alle info m.b.t. de datering gegeven, alleen de dateringen van de eerste en de laatste hand die aan de reeks schriften in het geheel zijn gegeven. Een enkele bevat een datering, en andere banden hebben een dusdanig klein bereik dat ze toch op het vroegste jaar zijn gepint (net als de collegereeksen). Band 96 (1942-1948) is als enige vanwege het grote bereik en gebrek aan preciezere datering achterwege gelaten.
 
 
-## Meerdere jaren
+### Meerdere jaren
 
 Een aantal werken zijn niet op een enkel jaar toe te spitsen. Voorbeelden hiervan zijn de colleges gegeven in het wintersemester (die altijd het eind van het jaar en het begin van het volgende jaar bestrijken), maar er zijn ook andere teksten waarvan de datering een reeks jaren is, en waarvaan geen preciezere datering meer te achterhalen is.  Voorbeelden zijn:
 
