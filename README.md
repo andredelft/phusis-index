@@ -1,11 +1,23 @@
 # unruh-phusis
 
+|     Code | Toelichting                               |
+| -------: | ----------------------------------------- |
+| `Her123` | Heraclitus, fr. 8: φύσις κρύπτεσθαι φιλεῖ |
+| `PhuLog` | φυσιολόγοι                                |
+| `Episte` | ἐπιστήμαι ἠθική, λογική & φυσική          |
+| `SeiIGa` | φύσις als _Seiende im Ganzen_             |
+| `VonSic` | φύσις (tegenover τέχνη )                  |
+|   `Emp8` | Empedocles, Fr. 8                         |
+| `ReiAuf` | Vert. als *Reine Aufgehen*                |
+| `Aufgan` | Vert. als *Aufgang*                       |
+|      `?` | Overig                                    |
+
 ## Kanttekeningen datering
 
 * Aanname paginering *Wegmarken*: $p_{GA} = p_{Mijn\ editie} + 2$ 
 * Als een referentie meerdere pagina's bestrijkt (bijv. '122f', '49ff' of '123-125'), dan tellen we dat gewoon als één referentie. Men zou kunnen zeggen dat φύσις in dit dit bereik strikt gezien vaker voorkomt, maar daar valt tegenin te brengen dat ook op een enkele pagina dit woord meerdere keren voor kan komen. De aanname is dus dat elke referentie op zich een eenheid is waarin φύσις ter sprake komt.
 * De protocollen uit GA 83 t/m 88 zijn achterwege gelaten. De vermeldingen in de notitites niet. <!-- Wat zijn de 'Ergängzungen' uit GA 88? -->
-* Niet door Unruh meegenomen: vol. 80.1, 80.2, 82, 84.2, 91-93, 98-102 (12 delen)
+* Niet door Unruh meegenomen: vol. 72, 80.1, 80.2, 82, 84.2, 91-93, 98-102 (13 delen)
 * Niet te dateren: 
   * GA 74
   * GA 76 (gedachten stammen uit de periode 1933 t/m 1955... wel echt een φύσις-band!)

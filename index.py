@@ -6,15 +6,21 @@ import re
 from load import get_dates, get_index, get_parts
 from utils import find_closest_preceding_number
 
+Ref = int | str
 
-def get_ref_year(vol: str, ref: int | str) -> int:
-    dates = get_dates()
+
+def get_ref_year(vol: str, ref: Ref | dict[Ref, str], date_type: str) -> int:
+    dates = get_dates(date_type)
+
+    if isinstance(ref, dict):
+        ref = list(ref.keys())[0]
+
     if isinstance(ref, str):
         page = int(re.search("\d+", ref).group())
     else:
         page = ref
 
-    date = dates.get(vol, None)
+    date = dates.get(vol)
 
     if isinstance(date, dict):
         section = find_closest_preceding_number(date.keys(), page)
