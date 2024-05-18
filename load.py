@@ -13,7 +13,6 @@ class DateValidationError(Exception):
 
 
 def validate_dates(dates):
-
     for volume, date in dates.items():
         if date == None or isinstance(date, int):
             pass
@@ -42,7 +41,7 @@ def clean_index(index) -> IndexObj:
 
 
 INDEX = None
-DATES = None
+DATES = dict()
 PARTS = None
 
 
@@ -59,18 +58,18 @@ def get_index() -> IndexObj:
     return INDEX
 
 
-def get_dates() -> DatesObj:
+def get_dates(date_type) -> DatesObj:
     global DATES
 
-    if DATES == None:
+    if date_type not in DATES.keys():
         print("Loading dates")
-        with open("dates.yml") as f:
+        with open(f"dates/{date_type}.yml") as f:
             dates_yml = yaml.safe_load(f)
 
         validate_dates(dates_yml)
-        DATES = clean_dates(dates_yml)
+        DATES[date_type] = clean_dates(dates_yml)
 
-    return DATES
+    return DATES[date_type]
 
 
 def get_parts():

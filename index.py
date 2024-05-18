@@ -9,24 +9,41 @@ from utils import find_closest_preceding_number
 Ref = int | str
 
 
-def get_ref_year(vol: str, ref: Ref | dict[Ref, str], date_type: str) -> int:
+REF_REGEX = re.compile(r"^(?P<start>\d+)(?:-(?P<end>\d+)|(?P<suffix>f{1,2})\.?)?$")
+
+
+def get_num_pages(ref: Ref) -> tuple[int, int]:
+    if isinstance(ref, int):
+        return ref, 1
+    else:
+        m = REF_REGEX.match(ref).groupdict()
+        first_page = int(m["start"])
+
+        if m["suffix"]:
+            num_pages = len(m["suffix"]) + 1
+        elif m["end"]:
+            num_pages = int(m["end"]) - first_page
+        else:
+            num_pages = 1
+
+        return first_page, num_pages
+
+
+def get_ref_counter(vol: str, ref: Ref | dict[Ref, str], date_type: str) -> int:
     dates = get_dates(date_type)
 
     if isinstance(ref, dict):
         ref = list(ref.keys())[0]
 
-    if isinstance(ref, str):
-        page = int(re.search("\d+", ref).group())
-    else:
-        page = ref
+    first_page, num_pages = get_num_pages(ref)
 
     date = dates.get(vol)
 
     if isinstance(date, dict):
-        section = find_closest_preceding_number(date.keys(), page)
-        return date[section]
+        section = find_closest_preceding_number(date.keys(), first_page)
+        date = date[section]
 
-    return date
+    return date, num_pages
 
 
 def print_undated_volumes():
@@ -51,30 +68,6 @@ def get_part_name(vol: str | int) -> str:
     )
 
 
-def plot_simple_histogram():
-    index = get_index()
-    parts = get_parts()
-    dated_refs: dict[str, Counter] = {part["name"]: Counter() for part in parts}
-    for vol, refs in index.items():
-        part_name = get_part_name(vol)
-        dated_refs[part_name].update(get_ref_year(vol, ref) for ref in refs)
-
-    cumulative_counter = Counter()  # To track the bottom positions
-    for part_name, counter in dated_refs.items():
-        del counter[None]
-        years, no_refs = zip(*counter.items())
-        plt.bar(
-            years,
-            no_refs,
-            bottom=[cumulative_counter[year] for year in years],
-            label=part_name,
-        )
-        cumulative_counter += counter
-
-    plt.legend()
-    plt.show()
-
-
 PART_COLORS = {
     "published": "#0ea5e9",  # sky-500
     "lectures": "#14b8a6",  # teal-500
@@ -90,9 +83,15 @@ LEGEND_LABELS = {
 }
 
 
-def plot_histogram_by_vol():
+def plot_histogram(
+    date_type: str,
+    include_parts: set[str] = set(),
+    include_vols: set[str | int] = set(),
+    size="md",
+):
     index = get_index()
-    fig, ax = plt.subplots(figsize=(12, 7))
+    fig = plt.figure(figsize=(8, 7 if size == "lg" else 5))
+    ax = fig.subplots()
     cumulative_counter = Counter()
 
     plotted_part_names = set()  # To avoid duplicate legend labels
@@ -103,7 +102,16 @@ def plot_histogram_by_vol():
 
     for vol, refs in index.items():
         part_name = get_part_name(vol)
-        counter = Counter(get_ref_year(vol, ref) for ref in refs)
+
+        if (include_parts and part_name not in include_parts) and not (
+            vol and vol in include_vols
+        ):
+            continue
+
+        counter = Counter()
+        for ref in refs:
+            year, num_pages = get_ref_counter(vol, ref, date_type)
+            counter[year] += num_pages
 
         total_refs += len(list(counter.elements()))
 
@@ -120,16 +128,24 @@ def plot_histogram_by_vol():
                 bottom=[cumulative_counter[year] for year in years],
                 color=PART_COLORS[part_name],
                 edgecolor="white",
-                label=LEGEND_LABELS[part_name]
-                if part_name not in plotted_part_names
-                else None,
-                width=0.8,
+                label=(
+                    LEGEND_LABELS[part_name]
+                    if part_name not in plotted_part_names
+                    else None
+                ),
+                width=0.8 if size == "md" else (0.6 if size == "sm" else 1),
             )
+
+            if size == "lg":
+                fontsize = "5" if len(vol) < 5 else "3.5"
+            else:
+                fontsize = "6" if len(vol) < 5 else "5"
+
             ax.bar_label(
                 p,
                 labels=len(years) * [vol],
                 label_type="center",
-                fontsize="6" if len(vol) < 5 else "5",
+                fontsize=fontsize,
             )
             cumulative_counter += counter
             plotted_part_names.add(part_name)
@@ -142,21 +158,17 @@ def plot_histogram_by_vol():
     ax.yaxis.set_major_locator(MultipleLocator(5))
     ax.yaxis.set_minor_locator(MultipleLocator(1))
 
-    plt.title(
-        "Het voorkomen van φύσις in Heideggers Gesamtausgabe (naar Unruhs index, 2016)"
-    )
-    plt.ylabel("# Referenties")
-    plt.xlabel("Jaar")
-
+    plt.ylabel("# Pagina’s")
+    plt.xlabel("Jaar" if date_type == "orig" else "Publicatiejaar")
     plt.legend()
-    plt.savefig("unruh-phusis.png", dpi=300)
-    plt.savefig(
-        "/Users/andrevandelft/Documents/Filosofie/zettelkasten/_media/unruh-phusis.png",
-        dpi=300,
-    )
-    # plt.show()
+    plt.tight_layout()
+    part_postfix = "_" + "-".join(sorted(include_parts)) if include_parts else ""
+    plt.savefig(f"figures/phusis-{date_type}{part_postfix}.png", dpi=500)
 
 
 if __name__ == "__main__":
-    # plot_simple_histogram()
-    plot_histogram_by_vol()
+    plot_histogram("orig", size="lg")
+    plot_histogram("pub")
+    plot_histogram("orig", include_parts={"lectures"}, size="sm")
+    plot_histogram("orig", include_parts={"unpublished", "notes"})
+    plot_histogram("ga")
