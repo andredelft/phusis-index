@@ -13,6 +13,24 @@
   * Van de Schwarze hefte is niet alle info m.b.t. de datering gegeven, alleen de dateringen van de eerste en de laatste hand die aan de reeks schriften in het geheel zijn gegeven. Een enkele bevat een datering, en andere banden hebben een dusdanig klein bereik dat ze toch op het vroegste jaar zijn gepint (net als de collegereeksen). Band 96 (1942-1948) is als enige vanwege het grote bereik en gebrek aan preciezere datering achterwege gelaten.
 * De referentie van _Sein und Zeit_ is achterwege gelaten. Het betreft hier een later toegevoegde kanttekening uit het zogenaamde *Hüttenexemplar*, geplaatst bij de opmerking dat de filosofie van oudsher waarheid en zijn met elkaar in verband brengt (p. 282). Met een verwijzing naar DK 22 B123 van licht hij in de kantlijn toe: ‘φύσις in sich schon ἀλήθεια, weil κρύπτεσθαι φιλεῖ’. Waarschijnlijk is deze opgetekend toen Heidegger werkte aan _WBPh_, waar een vergelijkbare formulering in te vinden is: ‘φύσις ist ἀλήθεια, Entbergung, und deshalb κρύπτεσθαι φιλεῖ’ (p. 299).
 
+### Errata
+
+In [`errata.yml`](./errata.yml) zijn de correcties op de index van Unruh aangebracht, in drie varianten:
+
+```yaml
+2:
+- 282: null
+5:
+- 40
+45:
+- 137: 136f
+```
+
+In dit voorbeeld geldt:
+
+* GA 2, p. 282 moet worden verwijderd
+* GA 5, p. 40 moet worden toegevoegd
+* GA 45, p. 137 moet worden vervangen door 136f.
 
 ### Meerdere jaren
 
@@ -28,14 +46,16 @@ In al deze gevallen is ervoor gekozen om het eerste jaar uit de reeks aan te hou
 
 ### Categorizering
 
-|     Code | Toelichting                               |
-| -------: | ----------------------------------------- |
-| `Her123` | Heraclitus, fr. 8: φύσις κρύπτεσθαι φιλεῖ |
-| `PhuLog` | φυσιολόγοι                                |
-| `Episte` | ἐπιστήμαι ἠθική, λογική & φυσική          |
-| `SeiIGa` | φύσις als _Seiende im Ganzen_             |
-| `VonSic` | φύσις (tegenover τέχνη)                   |
-|   `Emp8` | Empedocles, Fr. 8                         |
-| `ReiAuf` | Vert. als _Reine Aufgehen_                |
-| `Aufgan` | Vert. als _Aufgang_                       |
-|      `?` | Overig                                    |
+|     Code | Toelichting                                 |
+| -------: | ------------------------------------------- |
+| `Her123` | Heraclitus, fr. 123: φύσις κρύπτεσθαι φιλεῖ |
+| `PhuLog` | φυσιολόγοι                                  |
+| `Episte` | ἐπιστήμαι ἠθική, λογική & φυσική            |
+| `SeiIGa` | φύσις als _Seiende im Ganzen_               |
+| `SeAlSo` | φύσις als *Seiende als solches*             |
+| `PhuTex` | φύσις tegenover τέχνη                       |
+| `Emped8` | Empedocles, Fr. 8                           |
+| `ReiAuf` | Vert. als _Reine Aufgehen_                  |
+| `Aufgan` | Vert. als _Aufgang_                         |
+| `Verneh` | *Vernehmende des Seienden* / φύσις en νοεῖν |
+|      `?` | Overig                                      |
