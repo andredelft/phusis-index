@@ -49,13 +49,20 @@ In al deze gevallen is ervoor gekozen om het eerste jaar uit de reeks aan te hou
 |     Code | Toelichting                                 |
 | -------: | ------------------------------------------- |
 | `Her123` | Heraclitus, fr. 123: φύσις κρύπτεσθαι φιλεῖ |
+| `Emped8` | Empedocles, Fr. 8                           |
+| `Aia647` | Sophokles, *Aias*, vs. 647 (φύειν)          |
 | `PhuLog` | φυσιολόγοι                                  |
+| `GriNat` | φύσις als *griechisch gedachten ‘Natur’*    |
+| `PhuErd` | φύσις en aarde                              |
 | `Episte` | ἐπιστήμαι ἠθική, λογική & φυσική            |
 | `SeiIGa` | φύσις als _Seiende im Ganzen_               |
 | `SeAlSo` | φύσις als *Seiende als solches*             |
 | `PhuTex` | φύσις tegenover τέχνη                       |
-| `Emped8` | Empedocles, Fr. 8                           |
+| `PhuLet` | φύσις tegenover λήθη                        |
+| `PhuAle` | φύσις en ἀλήθεια                            |
+| `Phuein` | φύειν                                       |
 | `ReiAuf` | Vert. als _Reine Aufgehen_                  |
+| `Aufgeh` | Vert. als *Aufgehen*                        |
 | `Aufgan` | Vert. als _Aufgang_                         |
 | `Verneh` | *Vernehmende des Seienden* / φύσις en νοεῖν |
 |      `?` | Overig                                      |
