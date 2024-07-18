@@ -50,7 +50,7 @@ def get_index() -> IndexObj:
 
     if INDEX == None:
         print("Loading index")
-        with open("index.yml") as f:
+        with open("index/index.yml") as f:
             index = yaml.safe_load(f)
 
         INDEX = clean_index(index)

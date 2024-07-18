@@ -67,21 +67,26 @@ We sommen hieronder de gebruikte categorieën op in de drie genoemde groepen.
 
 |     Code | Toelichting                                 |
 | -------: | :------------------------------------------ |
-| `SeiIGa` | Vert. als _Seiende im Ganzen_               |
+| `SeiIGa` | Vert. als *Seiende im Ganzen*               |
 | `SeAlSo` | Vert. als *Seiende als solches*             |
-| `ReiAuf` | Vert. als _Reine Aufgehen_                  |
+| `ReiAuf` | Vert. als *Reine Aufgehen*                  |
 | `Aufgeh` | Vert. als *Aufgehen*                        |
-| `Aufgan` | Vert. als _Aufgang_                         |
+| `Aufgan` | Vert. als *Aufgang*                         |
+| `Hervor` | Vert. als *Hervorbringen*                   |
 
 ### Andere begrippen
 
 |     Code | Toelichting                                 |
 | -------: | :------------------------------------------ |
-| `GriNat` | φύσις als *griechisch gedachten ‘Natur’*    |
+| `PhuNat` | φύσις en natuur                             |
 | `PhuErd` | φύσις en aarde                              |
 | `PhuTex` | φύσις tegenover τέχνη                       |
 | `PhuLet` | φύσις tegenover λήθη                        |
+| `PhuThe` | φύσις tegenover θέσις                       |
 | `PhuAle` | φύσις en ἀλήθεια                            |
+| `PhuLog` | φύσις en λόγος                              |
+| `PhuMoi` | φύσις en Μοῖρα                              |
+| `PhuPoi` | φύσις en ποίησις                            |
 | `Verneh` | *Vernehmende des Seienden* / φύσις en νοεῖν |
 | `Entmac` | *Entmachtung der* φύσις                     |
 
@@ -89,7 +94,7 @@ We sommen hieronder de gebruikte categorieën op in de drie genoemde groepen.
 
 |     Code | Toelichting                                 |
 | -------: | :------------------------------------------ |
-| `PhuLog` | φυσιολόγοι                                  |
+| `Phusio` | φυσιολόγοι                                  |
 | `Metaph` | Metaphysik/μετὰ τὰ φύσικα                   |
 | `Phuein` | φύειν                                       |
 | `ProPhu` | πρότερον φύσει                              |

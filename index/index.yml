@@ -1,7 +1,7 @@
 2:
 - 282: Her123
 4:
-- 56f: GriNat
+- 56f: PhuNat
 - 161
 - 179
 5:
@@ -107,8 +107,8 @@
 - 1: Episte
 - 77: '?'
 22:
-- 35: PhuLog
-- 216: PhuLog
+- 35: Phusio
+- 216: Phusio
 - 243: Emped8
 - 287: '?'
 24:
@@ -201,7 +201,7 @@
 - 140
 54:
 - 100: Aufgeh
-- 151: GriNat
+- 151: PhuNat
 - 176: PhuLet
 - 206f: [Aufgeh, PhuAle]
 - 211f: [PhuErd, Aia647, Aufgeh]
