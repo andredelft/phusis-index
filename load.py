@@ -1,4 +1,5 @@
 import yaml
+from utils import correct_index
 
 IndexObj = dict[str, list[str | int]]
 DatesObj = dict[str, None | int | dict[int, None | int]]
@@ -43,19 +44,39 @@ def clean_index(index) -> IndexObj:
 INDEX = None
 DATES = dict()
 PARTS = None
+UNCORRECTED_INDEX = None
 
 
-def get_index() -> IndexObj:
+def get_index(include_corrections=True) -> IndexObj:
     global INDEX
+    global UNCORRECTED_INDEX
 
-    if INDEX == None:
+    if (include_corrections and INDEX == None) or (
+        not include_corrections and UNCORRECTED_INDEX == None
+    ):
         print("Loading index")
         with open("index/index.yml") as f:
             index = yaml.safe_load(f)
 
-        INDEX = clean_index(index)
+        if include_corrections:
+            with open("index/errata.yml") as f:
+                errata = yaml.safe_load(f)
 
-    return INDEX
+            index = correct_index(index, errata)
+
+            with open("index/complement.yml") as f:
+                complement = yaml.safe_load(f)
+
+            if set(index.keys()).intersection(complement.keys()):
+                raise ValueError("Complement has an overlapping volume with index")
+
+            index = {**index, **complement}
+
+            INDEX = clean_index(index)
+        else:
+            UNCORRECTED_INDEX = clean_index(index)
+
+    return INDEX if include_corrections else UNCORRECTED_INDEX
 
 
 def get_dates(date_type) -> DatesObj:

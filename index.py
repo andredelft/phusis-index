@@ -92,9 +92,10 @@ def plot_histogram(
     date_type: str,
     include_parts: set[str] = set(),
     include_vols: set[str | int] = set(),
+    include_corrections: bool = True,
     size="md",
 ):
-    index = get_index()
+    index = get_index(include_corrections)
     fig = plt.figure(figsize=(8, 9 if size == "lg" else 5))
     ax = fig.subplots()
     cumulative_counter = Counter()
@@ -168,11 +169,13 @@ def plot_histogram(
     plt.legend()
     plt.tight_layout()
     part_postfix = "_" + "-".join(sorted(include_parts)) if include_parts else ""
-    plt.savefig(f"figures/phusis-{date_type}{part_postfix}.png", dpi=500)
+    corr_postfix = "" if include_corrections else "_uncorrected"
+    plt.savefig(f"figures/phusis-{date_type}{part_postfix}{corr_postfix}.png", dpi=500)
 
 
 if __name__ == "__main__":
     plot_histogram("orig", size="lg")
+    plot_histogram("orig", size="lg", include_corrections=False)
     plot_histogram("pub")
     plot_histogram("orig", include_parts={"lectures"}, size="sm")
     plot_histogram("orig", include_parts={"unpublished", "notes"})
