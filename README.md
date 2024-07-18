@@ -13,7 +13,19 @@
   * Van de Schwarze hefte is niet alle info m.b.t. de datering gegeven, alleen de dateringen van de eerste en de laatste hand die aan de reeks schriften in het geheel zijn gegeven. Een enkele bevat een datering, en andere banden hebben een dusdanig klein bereik dat ze toch op het vroegste jaar zijn gepint (net als de collegereeksen). Band 96 (1942-1948) is als enige vanwege het grote bereik en gebrek aan preciezere datering achterwege gelaten.
 * De referentie van _Sein und Zeit_ is achterwege gelaten. Het betreft hier een later toegevoegde kanttekening uit het zogenaamde *Hüttenexemplar*, geplaatst bij de opmerking dat de filosofie van oudsher waarheid en zijn met elkaar in verband brengt (p. 282). Met een verwijzing naar DK 22 B123 van licht hij in de kantlijn toe: ‘φύσις in sich schon ἀλήθεια, weil κρύπτεσθαι φιλεῖ’. Waarschijnlijk is deze opgetekend toen Heidegger werkte aan _WBPh_, waar een vergelijkbare formulering in te vinden is: ‘φύσις ist ἀλήθεια, Entbergung, und deshalb κρύπτεσθαι φιλεῖ’ (p. 299).
 
-### Errata
+### Meerdere jaren
+
+Een aantal werken zijn niet op een enkel jaar toe te spitsen. Voorbeelden hiervan zijn de colleges gegeven in het wintersemester (die altijd het eind van het jaar en het begin van het volgende jaar bestrijken), maar er zijn ook andere teksten waarvan de datering een reeks jaren is, en waarvaan geen preciezere datering meer te achterhalen is.  Voorbeelden zijn:
+
+* *Beiträge* (GA 65): 1936-1938. Uit het *Nachwort des Herausgebers* blijkt dat het deel ‘Das Seyn’ uit 1938 komt, en de rest uit 1936/37 (GA 65, p. 515).
+* ‘Die Geschichte des Seyns’ (GA 69, eerste deel): 1938-40
+* GA 76: 1935-1955 (20 jaar!).
+
+<!-- Check in deze GA-delen of het echt niet meer te achterhalen valt -->  
+
+In al deze gevallen is ervoor gekozen om het eerste jaar uit de reeks aan te houden.
+
+## Errata
 
 In [`errata.yml`](./errata.yml) zijn de correcties op de index van Unruh aangebracht, in drie varianten:
 
@@ -32,39 +44,54 @@ In dit voorbeeld geldt:
 * GA 5, p. 40 moet worden toegevoegd
 * GA 45, p. 137 moet worden vervangen door 136f.
 
-### Meerdere jaren
+## Categorisering
 
-Een aantal werken zijn niet op een enkel jaar toe te spitsen. Voorbeelden hiervan zijn de colleges gegeven in het wintersemester (die altijd het eind van het jaar en het begin van het volgende jaar bestrijken), maar er zijn ook andere teksten waarvan de datering een reeks jaren is, en waarvaan geen preciezere datering meer te achterhalen is.  Voorbeelden zijn:
+We categoriseren de referenties op basis de context waarin φύσις in de passages ter sprake komen. Deze categorieën zijn weer te groeperen:
 
-* *Beiträge* (GA 65): 1936-1938. Uit het *Nachwort des Herausgebers* blijkt dat het deel ‘Das Seyn’ uit 1938 komt, en de rest uit 1936/37 (GA 65, p. 515).
-* ‘Die Geschichte des Seyns’ (GA 69, eerste deel): 1938-40
-* GA 76: 1935-1955 (20 jaar!).
+1. Antieke referenties waarin φύσις ter sprake komt
+2. Vertalingen die van φύσις gegeven worden 
+3. Andere begrippen of Griekse termen waar φύσις mee in verband wordt gebracht (of tegen af wordt gezet).
+4. Een bepaalde variatie van φύσις ter sprake komt
 
-<!-- Check in deze GA-delen of het echt niet meer te achterhalen valt -->  
+We sommen hieronder de gebruikte categorieën op in de drie genoemde groepen.
 
-In al deze gevallen is ervoor gekozen om het eerste jaar uit de reeks aan te houden.
-
-### Categorizering
+### Antieke referenties
 
 |     Code | Toelichting                                 |
-| -------: | ------------------------------------------- |
+| -------: | :------------------------------------------ |
 | `Her123` | Heraclitus, fr. 123: φύσις κρύπτεσθαι φιλεῖ |
 | `Emped8` | Empedocles, Fr. 8                           |
 | `Aia647` | Sophokles, *Aias*, vs. 647 (φύειν)          |
-| `PhuLog` | φυσιολόγοι                                  |
-| `GriNat` | φύσις als *griechisch gedachten ‘Natur’*    |
-| `PhuErd` | φύσις en aarde                              |
-| `Episte` | ἐπιστήμαι ἠθική, λογική & φυσική            |
-| `Metaph` | Metaphysik/μετὰ τὰ φύσικα                   |
-| `SeiIGa` | φύσις als _Seiende im Ganzen_               |
-| `SeAlSo` | φύσις als *Seiende als solches*             |
-| `PhuTex` | φύσις tegenover τέχνη                       |
-| `PhuLet` | φύσις tegenover λήθη                        |
-| `PhuAle` | φύσις en ἀλήθεια                            |
-| `Phuein` | φύειν                                       |
+
+### Vertalingen
+
+|     Code | Toelichting                                 |
+| -------: | :------------------------------------------ |
+| `SeiIGa` | Vert. als _Seiende im Ganzen_               |
+| `SeAlSo` | Vert. als *Seiende als solches*             |
 | `ReiAuf` | Vert. als _Reine Aufgehen_                  |
 | `Aufgeh` | Vert. als *Aufgehen*                        |
 | `Aufgan` | Vert. als _Aufgang_                         |
+
+### Andere begrippen
+
+|     Code | Toelichting                                 |
+| -------: | :------------------------------------------ |
+| `GriNat` | φύσις als *griechisch gedachten ‘Natur’*    |
+| `PhuErd` | φύσις en aarde                              |
+| `PhuTex` | φύσις tegenover τέχνη                       |
+| `PhuLet` | φύσις tegenover λήθη                        |
+| `PhuAle` | φύσις en ἀλήθεια                            |
 | `Verneh` | *Vernehmende des Seienden* / φύσις en νοεῖν |
 | `Entmac` | *Entmachtung der* φύσις                     |
-|      `?` | Overig                                      |
+
+### Variatie
+
+|     Code | Toelichting                                 |
+| -------: | :------------------------------------------ |
+| `PhuLog` | φυσιολόγοι                                  |
+| `Metaph` | Metaphysik/μετὰ τὰ φύσικα                   |
+| `Phuein` | φύειν                                       |
+| `ProPhu` | πρότερον φύσει                              |
+| `Episte` | ἐπιστήμαι ἠθική, λογική & φυσική            |
+
