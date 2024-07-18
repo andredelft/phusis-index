@@ -5,7 +5,7 @@
 * Aanname paginering *Wegmarken*: $p_{GA} = p_{Mijn\ editie} + 2$ 
 * Als een referentie meerdere pagina’s bestrijkt (bijv. ‘122f’, ‘49ff’ of ‘123-125’), dan tellen we dat gewoon als één referentie. Men zou kunnen zeggen dat φύσις in dit dit bereik strikt gezien vaker voorkomt, maar daar valt tegenin te brengen dat ook op een enkele pagina dit woord meerdere keren voor kan komen. De aanname is dus dat elke referentie op zich een eenheid is waarin φύσις ter sprake komt.
 * De protocollen uit GA 83 t/m 88 zijn achterwege gelaten. De vermeldingen in de notities niet. <!-- Wat zijn de 'Ergängzungen' uit GA 88? -->
-* Niet door Unruh meegenomen: vol. 38A, 72, 80.1, 80.2, 82, 84.2, 91-93, 98-102 (13 delen)
+* Niet door Unruh meegenomen: vol. 38A, 72, 80.1, 80.2, 82, 84.2, 91-93, 98-102 (14 delen)
 * Niet te dateren: 
   * GA 74
   * GA 76 (gedachten stammen uit de periode 1933 t/m 1955... wel echt een φύσις-band!)
@@ -55,6 +55,7 @@ In al deze gevallen is ervoor gekozen om het eerste jaar uit de reeks aan te hou
 | `GriNat` | φύσις als *griechisch gedachten ‘Natur’*    |
 | `PhuErd` | φύσις en aarde                              |
 | `Episte` | ἐπιστήμαι ἠθική, λογική & φυσική            |
+| `Metaph` | Metaphysik/μετὰ τὰ φύσικα                   |
 | `SeiIGa` | φύσις als _Seiende im Ganzen_               |
 | `SeAlSo` | φύσις als *Seiende als solches*             |
 | `PhuTex` | φύσις tegenover τέχνη                       |
@@ -65,4 +66,5 @@ In al deze gevallen is ervoor gekozen om het eerste jaar uit de reeks aan te hou
 | `Aufgeh` | Vert. als *Aufgehen*                        |
 | `Aufgan` | Vert. als _Aufgang_                         |
 | `Verneh` | *Vernehmende des Seienden* / φύσις en νοεῖν |
+| `Entmac` | *Entmachtung der* φύσις                     |
 |      `?` | Overig                                      |

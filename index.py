@@ -16,7 +16,12 @@ def get_num_pages(ref: Ref) -> tuple[int, int]:
     if isinstance(ref, int):
         return ref, 1
     else:
-        m = REF_REGEX.match(ref).groupdict()
+        m = REF_REGEX.match(ref)
+
+        if not m:
+            raise ValueError(f"Reference {ref} not recognized")
+
+        m = m.groupdict()
         first_page = int(m["start"])
 
         if m["suffix"]:
@@ -90,7 +95,7 @@ def plot_histogram(
     size="md",
 ):
     index = get_index()
-    fig = plt.figure(figsize=(8, 7 if size == "lg" else 5))
+    fig = plt.figure(figsize=(8, 9 if size == "lg" else 5))
     ax = fig.subplots()
     cumulative_counter = Counter()
 
@@ -159,7 +164,7 @@ def plot_histogram(
     ax.yaxis.set_minor_locator(MultipleLocator(1))
 
     plt.ylabel("# Pagina’s")
-    plt.xlabel("Jaar" if date_type == "orig" else "Publicatiejaar")
+    plt.xlabel("Conceptiejaar" if date_type == "orig" else "Publicatiejaar")
     plt.legend()
     plt.tight_layout()
     part_postfix = "_" + "-".join(sorted(include_parts)) if include_parts else ""
