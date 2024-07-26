@@ -38,12 +38,10 @@ def correct_index(index, errata):
                     # Reference should be removed
                     index[vol].pop(ref_index)
                 else:
-                    print(vol, ref_value)
                     # Reference should be replaced
                     index[vol][ref_index] = ref_value
             else:
                 # Reference should be added
                 index[vol].append(ref)
 
-    print(index)
     return index

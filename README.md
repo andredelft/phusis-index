@@ -73,6 +73,7 @@ We sommen hieronder de gebruikte categorieën op in de drie genoemde groepen.
 | `Aufgeh` | Vert. als *Aufgehen*                        |
 | `Aufgan` | Vert. als *Aufgang*                         |
 | `Hervor` | Vert. als *Hervorbringen*                   |
+| `Anwahr` | Vert. als *Anwähren*                        |
 
 ### Andere begrippen
 
@@ -89,6 +90,7 @@ We sommen hieronder de gebruikte categorieën op in de drie genoemde groepen.
 | `PhuPoi` | φύσις en ποίησις                            |
 | `Verneh` | *Vernehmende des Seienden* / φύσις en νοεῖν |
 | `Entmac` | *Entmachtung der* φύσις                     |
+| `Physik` | Physik                                      |
 
 ### Variatie
 
