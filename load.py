@@ -1,8 +1,25 @@
 import yaml
 from utils import correct_index
+from typing import TypedDict
 
-IndexObj = dict[str, list[str | int]]
-DatesObj = dict[str, None | int | dict[int, None | int]]
+
+RefValue = str | int
+Categories = str | list[str]
+
+ReferenceObj = RefValue | dict[RefValue, Categories]
+IndexObj = dict[str, list[ReferenceObj]]
+
+Year = None | int
+DatesObj = dict[str, Year | dict[int, Year]]
+
+
+class PartObj(TypedDict):
+    name: str
+    start: int
+    end: int
+
+
+PartsObj = list[PartObj]
 
 
 class ValidationError(Exception):
@@ -93,7 +110,7 @@ def get_dates(date_type) -> DatesObj:
     return DATES[date_type]
 
 
-def get_parts():
+def get_parts() -> PartsObj:
     global PARTS
 
     if PARTS == None:

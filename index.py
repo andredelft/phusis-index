@@ -4,7 +4,8 @@ from matplotlib.ticker import MultipleLocator
 import re
 
 from load import get_dates, get_index, get_parts
-from utils import find_closest_preceding_number
+from utils import find_closest_preceding_number, volume_sort_key
+from classes import Index
 
 Ref = int | str
 
@@ -46,7 +47,7 @@ def get_ref_counter(vol: str, ref: Ref | dict[Ref, str], date_type: str) -> int:
 
     if isinstance(date, dict):
         section = find_closest_preceding_number(date.keys(), first_page)
-        date = date[section]
+        date = date[section] if section else None
 
     return date, num_pages
 
@@ -87,6 +88,13 @@ LEGEND_LABELS = {
     "notes": "Aantekeningen (GA 82 t/m 102)",
 }
 
+SHORT_LEGEND_LABELS = {
+    "published": "Gepubliceerd",
+    "lectures": "Colleges",
+    "unpublished": "Ongepubliceerd",
+    "notes": "Aantekeningen",
+}
+
 
 def plot_histogram(
     date_type: str,
@@ -106,7 +114,7 @@ def plot_histogram(
     total_refs = 0
     undated_refs = 0
 
-    for vol, refs in index.items():
+    for vol, refs in sorted(index.items(), key=lambda x: volume_sort_key(x[0])):
         part_name = get_part_name(vol)
 
         if (include_parts and part_name not in include_parts) and not (
@@ -143,9 +151,9 @@ def plot_histogram(
             )
 
             if size == "lg":
-                fontsize = "5" if len(vol) < 5 else "3.5"
+                fontsize = "5" if len(vol) < 4 else "3.5"
             else:
-                fontsize = "6" if len(vol) < 5 else "5"
+                fontsize = "6" if len(vol) < 4 else "5"
 
             ax.bar_label(
                 p,
@@ -173,6 +181,40 @@ def plot_histogram(
     plt.savefig(f"figures/phusis-{date_type}{part_postfix}{corr_postfix}.png", dpi=500)
 
 
+def plot_pie_chart(include_corrections=True):
+    index = Index.from_yaml(get_index(include_corrections))
+
+    lengths = {
+        "published": 0,
+        "lectures": 0,
+        "unpublished": 0,
+        "notes": 0,
+    }
+
+    for volume in index.volumes:
+        lengths[volume.part] += len(volume)
+
+    _, ax = plt.subplots()
+    ax.pie(
+        lengths.values(),
+        colors=PART_COLORS.values(),
+        labels=SHORT_LEGEND_LABELS.values(),
+        autopct="%1.1f%%",
+        wedgeprops={
+            "edgecolor": "w",
+            "linewidth": 2,
+            "linestyle": "solid",
+            "antialiased": True,
+        },
+    )
+
+    plt.tight_layout()
+    plt.savefig(
+        f"figures/phusis-pie-chart{'_uncorrected' if not include_corrections else ''}.png",
+        dpi=500,
+    )
+
+
 if __name__ == "__main__":
     plot_histogram("orig", size="lg")
     plot_histogram("orig", size="lg", include_corrections=False)
@@ -180,3 +222,5 @@ if __name__ == "__main__":
     plot_histogram("orig", include_parts={"lectures"}, size="sm")
     plot_histogram("orig", include_parts={"unpublished", "notes"})
     plot_histogram("ga")
+    plot_pie_chart()
+    plot_pie_chart(include_corrections=False)

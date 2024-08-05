@@ -1,3 +1,6 @@
+import re
+
+
 def find_closest_preceding_number(numbers, n) -> int | None:
     if not numbers:
         return
@@ -45,3 +48,7 @@ def correct_index(index, errata):
                 index[vol].append(ref)
 
     return index
+
+
+def volume_sort_key(volume_str: str):
+    return tuple(int(n) for n in re.findall(r"\d+", volume_str))
