@@ -2,11 +2,7 @@ import re
 from typing import Self
 
 from utils import volume_sort_key
-from load import (
-    get_parts,
-    ReferenceObj as ReferenceObjYAML,
-    IndexObj as IndexObjYAML,
-)
+from load import get_parts, ReferenceObj, IndexObj
 
 
 REF_REGEX = re.compile(r"^(?P<start>\d+)(?:-(?P<end>\d+)|(?P<suffix>f{1,2})\.?)?$")
@@ -36,7 +32,9 @@ class Reference(object):
             return f"{self.start}-{self.end}"
 
     def __repr__(self):
-        return f'<Reference {self}{": " + ", ".join(list(self.categories)) if self.categories else ""}>'
+        category_str = ", ".join(sorted(self.categories))
+
+        return f'<Reference {self}{f": {category_str}" if self.categories else ""}>'
 
     def __eq__(self, other: Self):
         return self.start == other.start and self.end == other.end
@@ -59,7 +57,7 @@ class Reference(object):
             return self.end - self.start + 1
 
     @classmethod
-    def from_yaml(cls, yaml: ReferenceObjYAML):
+    def from_yaml(cls, yaml: ReferenceObj):
         if isinstance(yaml, dict):
             if len(yaml) != 1:
                 raise ValueError(f"Reference has invalid format: {yaml}")
@@ -110,6 +108,10 @@ class Volume:
     def __len__(self):
         return sum(len(r) for r in self.references)
 
+    def __iter__(self):
+        for reference in self.references:
+            yield reference
+
     def __eq__(self, other: Self):
         return self._sort_key == other._sort_key
 
@@ -120,10 +122,10 @@ class Volume:
         return self.name
 
     def __repr__(self):
-        return f"<Volume {self}>"
+        return f"<Volume {self} ({len(self.references)} references)>"
 
     @classmethod
-    def from_yaml(cls, name: str, yaml: list[ReferenceObjYAML]):
+    def from_yaml(cls, name: str, yaml: list[ReferenceObj]):
         return cls(name, [Reference.from_yaml(item) for item in yaml])
 
 
@@ -134,10 +136,14 @@ class Index:
     def __len__(self):
         return sum(len(volume) for volume in self.volumes)
 
-    @classmethod
-    def from_yaml(cls, yaml: IndexObjYAML):
-        volumes = [Volume.from_yaml(*item) for item in yaml.items()]
-        return cls(volumes)
+    def __iter__(self):
+        for volume in self.volumes:
+            yield volume
 
     def __repr__(self):
-        return "<Index object>"
+        return f"<Index ({len(self.volumes)} volumes)>"
+
+    @classmethod
+    def from_yaml(cls, yaml: IndexObj):
+        volumes = [Volume.from_yaml(*item) for item in yaml.items()]
+        return cls(volumes)
