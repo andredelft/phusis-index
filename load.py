@@ -1,16 +1,17 @@
 import yaml
-from utils import correct_index
 from typing import TypedDict
+from functools import cache
 
 
 RefValue = str | int
 Categories = str | list[str]
 
+VolumeName = str | int
 ReferenceObj = RefValue | dict[RefValue, Categories]
-IndexObj = dict[str, list[ReferenceObj]]
+IndexObj = dict[VolumeName, list[ReferenceObj]]
 
 Year = None | int
-DatesObj = dict[str, Year | dict[int, Year]]
+DatesObj = dict[VolumeName, Year | dict[int, Year]]
 
 
 class PartObj(TypedDict):
@@ -30,7 +31,66 @@ class DateValidationError(Exception):
     pass
 
 
-def validate_dates(dates):
+def apply_errata(index, errata):
+    for vol, refs in errata.items():
+        for ref in refs:
+            if isinstance(ref, dict):
+                ref_key, ref_value = next(iter(ref.items()))
+
+                try:
+                    ref_index = next(
+                        index
+                        for index, orig_ref in enumerate(index[vol])
+                        if ref_key == orig_ref
+                        or (
+                            isinstance(orig_ref, dict)
+                            and ref_key == next(iter(orig_ref.keys()))
+                        )
+                    )
+                except StopIteration:
+                    raise ValidationError(
+                        f"Error correcting volume {vol}: reference {ref} not found (make sure no categories are assigned to this ref in the original index)"
+                    )
+
+                if ref_value == None:
+                    # Reference should be removed
+                    index[vol].pop(ref_index)
+                else:
+                    # Reference should be replaced
+                    index[vol][ref_index] = ref_value
+            else:
+                # Reference should be added
+                index[vol].append(ref)
+
+    return index
+
+
+def load_index_yaml(include_corrections=True) -> IndexObj:
+
+    print(f"Loading {'uncorrected ' if not include_corrections else ''}index")
+    with open("index/index.yml") as f:
+        index = yaml.safe_load(f)
+
+    if include_corrections:
+        with open("index/errata.yml") as f:
+            errata = yaml.safe_load(f)
+
+        index = apply_errata(index, errata)
+
+        with open("index/complement.yml") as f:
+            complement = yaml.safe_load(f)
+
+        if set(index.keys()).intersection(complement.keys()):
+            raise ValueError("Complement has an overlapping volume with index")
+
+        index = {**index, **complement}
+
+    return index
+
+
+def validate_and_clean_dates(dates) -> DatesObj:
+    clean_dates = dict()
+
     for volume, date in dates.items():
         if date == None or isinstance(date, int):
             pass
@@ -49,73 +109,23 @@ def validate_dates(dates):
                 f"Volume {volume} is not of type None, int or dict"
             )
 
+        clean_dates[str(volume)] = date
 
-def clean_dates(dates) -> DatesObj:
-    return {str(k): v for k, v in dates.items()}
-
-
-def clean_index(index) -> IndexObj:
-    return {str(k): v for k, v in index.items()}
+    return clean_dates
 
 
-INDEX = None
-DATES = dict()
-PARTS = None
-UNCORRECTED_INDEX = None
+def load_dates_yaml(date_type: str) -> DatesObj:
+    print(f"Loading {date_type} dates")
+    with open(f"dates/{date_type}.yml") as f:
+        dates_yml = yaml.safe_load(f)
+
+    return validate_and_clean_dates(dates_yml)
 
 
-def get_index(include_corrections=True) -> IndexObj:
-    global INDEX
-    global UNCORRECTED_INDEX
+@cache
+def load_parts_yaml() -> PartsObj:
+    print("Loading parts")
+    with open("parts.yml") as f:
+        parts = yaml.safe_load(f)
 
-    if (include_corrections and INDEX == None) or (
-        not include_corrections and UNCORRECTED_INDEX == None
-    ):
-        print("Loading index")
-        with open("index/index.yml") as f:
-            index = yaml.safe_load(f)
-
-        if include_corrections:
-            with open("index/errata.yml") as f:
-                errata = yaml.safe_load(f)
-
-            index = correct_index(index, errata)
-
-            with open("index/complement.yml") as f:
-                complement = yaml.safe_load(f)
-
-            if set(index.keys()).intersection(complement.keys()):
-                raise ValueError("Complement has an overlapping volume with index")
-
-            index = {**index, **complement}
-
-            INDEX = clean_index(index)
-        else:
-            UNCORRECTED_INDEX = clean_index(index)
-
-    return INDEX if include_corrections else UNCORRECTED_INDEX
-
-
-def get_dates(date_type) -> DatesObj:
-    global DATES
-
-    if date_type not in DATES.keys():
-        print("Loading dates")
-        with open(f"dates/{date_type}.yml") as f:
-            dates_yml = yaml.safe_load(f)
-
-        validate_dates(dates_yml)
-        DATES[date_type] = clean_dates(dates_yml)
-
-    return DATES[date_type]
-
-
-def get_parts() -> PartsObj:
-    global PARTS
-
-    if PARTS == None:
-        print("Loading parts")
-        with open("parts.yml") as f:
-            PARTS = yaml.safe_load(f)
-
-    return PARTS
+    return parts
