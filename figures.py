@@ -1,4 +1,5 @@
 from collections import Counter
+from itertools import chain
 from matplotlib import pyplot as plt
 from matplotlib.ticker import MultipleLocator
 
@@ -30,8 +31,8 @@ PART_PLOT_DATA = {
 
 def plot_histogram(
     date_type="orig",
-    include_parts: set[str] = set(),
-    include_vols: set[str | int] = set(),
+    include_parts: list[str] = [],
+    include_vols: list[str | int] = [],
     include_corrections=True,
     size="md",
 ):
@@ -49,12 +50,19 @@ def plot_histogram(
 
     dating = get_dating(date_type)
 
-    for vol in index:
-        if (include_parts and vol.part not in include_parts) and not (
-            include_vols and str(vol) in include_vols
-        ):
-            continue
+    if include_parts:
+        parts = [index.parts[part] for part in include_parts]
 
+        extra_vols = [
+            index[vol_name]
+            for vol_name in include_vols
+            if index[vol_name].part_name not in include_parts
+        ]
+        volumes = sorted(chain(*parts, extra_vols))
+    else:
+        volumes = index.volumes
+
+    for vol in volumes:
         counter = Counter()
         for ref in vol:
             year = dating.get_year(vol, ref)
@@ -67,11 +75,11 @@ def plot_histogram(
                 years,
                 no_refs,
                 bottom=[cumulative_counter[year] for year in years],
-                color=PART_PLOT_DATA[vol.part]["color"],
+                color=PART_PLOT_DATA[vol.part_name]["color"],
                 edgecolor="w",
                 label=(
-                    PART_PLOT_DATA[vol.part]["label"]
-                    if vol.part not in plotted_part_names
+                    PART_PLOT_DATA[vol.part_name]["label"]
+                    if vol.part_name not in plotted_part_names
                     else None
                 ),
                 width=0.8 if size == "md" else (0.6 if size == "sm" else 1),
@@ -89,7 +97,7 @@ def plot_histogram(
                 fontsize=fontsize,
             )
             cumulative_counter += counter
-            plotted_part_names.add(vol.part)
+            plotted_part_names.add(vol.part_name)
 
     ax.xaxis.set_minor_locator(MultipleLocator(1))
     ax.yaxis.set_major_locator(MultipleLocator(5))
@@ -115,7 +123,7 @@ def plot_pie_chart(include_corrections=True):
     labels = [part["label"] for part in PART_PLOT_DATA.values()]
 
     for volume in index.volumes:
-        lengths[volume.part] += len(volume)
+        lengths[volume.part_name] += len(volume)
 
     _, ax = plt.subplots()
     ax.pie(
@@ -142,8 +150,8 @@ if __name__ == "__main__":
     plot_histogram(size="lg")
     plot_histogram(size="lg", include_corrections=False)
     plot_histogram(date_type="pub")
-    plot_histogram(include_parts={"lectures"}, size="sm")
-    plot_histogram(include_parts={"unpublished", "notes"})
+    plot_histogram(include_parts=["lectures"], size="sm")
+    plot_histogram(include_parts=["unpublished", "notes"])
     plot_histogram(date_type="ga")
     plot_pie_chart()
     plot_pie_chart(include_corrections=False)

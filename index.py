@@ -108,10 +108,10 @@ class Volume:
         self.references = sorted(references)
         self._sort_key = volume_sort_key(self.name)
 
-        self.part = next(
-            part["name"]
-            for part in load_parts_yaml()
-            if part["start"] <= self._sort_key[0] <= part["end"]
+        self.part_name = next(
+            part.name
+            for part in get_parts()
+            if part.start <= self._sort_key[0] <= part.end
         )
 
     def __len__(self):
@@ -143,6 +143,10 @@ class Index:
         self.volumes = sorted(volumes)
 
         self._index = {volume.name: volume for volume in volumes}
+        self.parts: dict[str, list[Volume]] = {part.name: [] for part in get_parts()}
+
+        for volume in volumes:
+            self.parts[volume.part_name].append(volume)
 
     def __len__(self):
         return sum(len(volume) for volume in self.volumes)
@@ -151,8 +155,8 @@ class Index:
         for volume in self.volumes:
             yield volume
 
-    def __getitem__(self, key: str):
-        return self._index[key]
+    def __getitem__(self, key: str | int):
+        return self._index[str(key)]
 
     def __repr__(self):
         return f"<Index ({len(self.volumes)} volumes)>"
@@ -198,6 +202,13 @@ class Dating:
         return cls(vol_page_year_mapping)
 
 
+class Part:
+    def __init__(self, name: str, start: int, end: int):
+        self.name = name
+        self.start = start
+        self.end = end
+
+
 @cache
 def get_index(include_corrections=True):
     return Index.from_yaml(load_index_yaml(include_corrections))
@@ -206,3 +217,9 @@ def get_index(include_corrections=True):
 @cache
 def get_dating(date_type: str):
     return Dating.from_yaml(load_dates_yaml(date_type))
+
+
+@cache
+def get_parts():
+    parts = load_parts_yaml()
+    return [Part(**part) for part in parts]

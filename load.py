@@ -122,7 +122,6 @@ def load_dates_yaml(date_type: str) -> DatesObj:
     return validate_and_clean_dates(dates_yml)
 
 
-@cache
 def load_parts_yaml() -> PartsObj:
     print("Loading parts")
     with open("parts.yml") as f:
