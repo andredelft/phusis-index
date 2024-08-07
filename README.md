@@ -1,10 +1,10 @@
-# unruh-phusis
+# Heideggers φύσις
 
-## Kanttekeningen datering
+Deze repository biedt een overzicht van het voorkomen van het lemma φύσις in Heideggers _Gesamtausgabe_. Hiervoor is dankbaar gebruik gemaakt van het lemma uit Patrick Unruhs [_Register zur Martin Heidegger Gesamtausgabe_](https://www.klostermann.de/Unruh-Patrick-Register-zur-Martin-Heidegger-Gesamtausgabe) uit 2017, met [enkele correcties](./index/errata.yml) en [aangevuld](./index/complement.yml) met alle delen die sinds Unruhs publicatie zijn verschenen.
 
-* Aanname paginering *Wegmarken*: $p_{GA} = p_{Mijn\ editie} + 2$ 
-* Als een referentie meerdere pagina’s bestrijkt (bijv. ‘122f’, ‘49ff’ of ‘123-125’), dan tellen we dat gewoon als één referentie. Men zou kunnen zeggen dat φύσις in dit dit bereik strikt gezien vaker voorkomt, maar daar valt tegenin te brengen dat ook op een enkele pagina dit woord meerdere keren voor kan komen. De aanname is dus dat elke referentie op zich een eenheid is waarin φύσις ter sprake komt.
-* De protocollen uit GA 83 t/m 88 zijn achterwege gelaten. De vermeldingen in de notities niet. <!-- Wat zijn de 'Ergängzungen' uit GA 88? -->
+## Kanttekeningen
+
+* De protocollen uit GA 83 t/m 88 zijn achterwege gelaten in de datering. De vermeldingen in de notities niet. <!-- Wat zijn de 'Ergängzungen' uit GA 88? -->
 * Niet door Unruh meegenomen: vol. 38A, 72, 80.1, 80.2, 82, 84.2, 91-93, 98-102 (14 delen)
 * Niet te dateren: 
   * GA 73: Tijdspanne van ongeveer dertig jaar (*Nachwort des Herausgebers*, p. 1489)
@@ -12,7 +12,6 @@
   * GA 76 (gedachten stammen uit de periode 1933 t/m 1955... wel echt een φύσις-band!)
   * GA 81 (eind jaren 30, begin jaren 40)
   * GA 91, *Denksplitter* (tweede deel): Periode van 4 decennia (*Nachwort de Herausgebers*, p. 771)
-* De referentie van _Sein und Zeit_ is achterwege gelaten. Het betreft hier een later toegevoegde kanttekening uit het zogenaamde *Hüttenexemplar*, geplaatst bij de opmerking dat de filosofie van oudsher waarheid en zijn met elkaar in verband brengt (p. 282). Met een verwijzing naar DK 22 B123 van licht hij in de kantlijn toe: ‘φύσις in sich schon ἀλήθεια, weil κρύπτεσθαι φιλεῖ’. Waarschijnlijk is deze opgetekend toen Heidegger werkte aan _WBPh_, waar een vergelijkbare formulering in te vinden is: ‘φύσις ist ἀλήθεια, Entbergung, und deshalb κρύπτεσθαι φιλεῖ’ (p. 299).
 
 ### Meerdere jaren
 
@@ -20,8 +19,6 @@ Een aantal werken zijn niet op een enkel jaar toe te spitsen. Voorbeelden hierva
 
 * *Beiträge* (GA 65): 1936-1938. Uit het *Nachwort des Herausgebers* blijkt dat het deel ‘Das Seyn’ uit 1938 komt, en de rest uit 1936/37 (GA 65, p. 515).
 * ‘Die Geschichte des Seyns’ (GA 69, eerste deel): 1938-40
-
-<!-- Check in deze GA-delen of het echt niet meer te achterhalen valt -->  
 
 In al deze gevallen is ervoor gekozen om het eerste jaar uit de reeks aan te houden.
 
