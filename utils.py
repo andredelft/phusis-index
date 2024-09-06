@@ -17,3 +17,15 @@ def find_closest_preceding_number(sorted_numbers: list[int], n: int) -> int | No
 
 def volume_sort_key(volume_str: str):
     return tuple(int(n) for n in re.findall(r"\d+", volume_str))
+
+
+def first_value(obj: dict):
+    return next(iter(obj.values()))
+
+
+def first_item(obj: dict):
+    return next(iter(obj.items()))
+
+
+def first_key(obj: dict):
+    return next(iter(obj.keys()))

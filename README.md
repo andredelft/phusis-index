@@ -54,41 +54,54 @@ We sommen hieronder de gebruikte categorieën op in de drie genoemde groepen.
 
 ### Antieke referenties
 
-|     Code | Toelichting                                 |
-| -------: | :------------------------------------------ |
-| `Her123` | Heraclitus, fr. 123: φύσις κρύπτεσθαι φιλεῖ |
-| `Emped8` | Empedocles, Fr. 8                           |
-| `Aia647` | Sophokles, *Aias*, vs. 647 (φύειν)          |
-| `Platon` | φύσις bij Plato                             |
+|          Code | Toelichting                                             |
+| ------------: | :------------------------------------------------------ |
+|      `Her123` | Heraclitus, fr. 123: φύσις κρύπτεσθαι φιλεῖ             |
+|      `Emped8` | Empedocles, Fr. 8                                       |
+|      `Aia647` | Sophokles, *Aias*, vs. 647 (φύειν)                      |
+|      `Platon` | φύσις bij Plato                                         |
+| `Aristoteles` | φύσις bij Aristoteles                                   |
+|     `AriPZMA` | Aristoteles, Περὶ ζῴων μορίων (*De Partibus Animalium*) |
+|  `Parmenides` | φύσις bij Parmenides                                    |
 
 ### Vertalingen
 
-|     Code | Toelichting                                 |
-| -------: | :------------------------------------------ |
-| `SeiIGa` | Vert. als *Seiende im Ganzen*               |
-| `SeAlSo` | Vert. als *Seiende als solches*             |
-| `ReiAuf` | Vert. als *Reine Aufgehen*                  |
-| `Aufgeh` | Vert. als *Aufgehen*                        |
-| `Aufgan` | Vert. als *Aufgang*                         |
-| `Hervor` | Vert. als *Hervorbringen*                   |
-| `Anwahr` | Vert. als *Anwähren*                        |
+|       Code | Toelichting                     |
+| ---------: | :------------------------------ |
+|   `SeiIGa` | Vert. als *Seiende im Ganzen*   |
+|   `SeAlSo` | Vert. als *Seiende als solches* |
+|   `ReiAuf` | Vert. als *Reine Aufgehen*      |
+|   `Aufgeh` | Vert. als *Aufgehen*            |
+|   `Aufgan` | Vert. als *Aufgang*             |
+|   `Hervor` | Vert. als *Hervorbringen*       |
+|   `Anwahr` | Vert. als *Anwähren*            |
+|  `Ausgang` | Vert. als *Ausgang*             |
+|  `Wiesein` | Vert. als *Wie-sein*            |
+| `Vorgehen` | Vert. als *Vorgehen*            |
 
 ### Andere begrippen
 
-|     Code | Toelichting                                 |
-| -------: | :------------------------------------------ |
-| `PhuNat` | φύσις en natuur                             |
-| `PhuErd` | φύσις en aarde                              |
-| `PhuTex` | φύσις tegenover τέχνη                       |
-| `PhuLet` | φύσις tegenover λήθη                        |
-| `PhuThe` | φύσις tegenover θέσις                       |
-| `PhuAle` | φύσις en ἀλήθεια                            |
-| `PhuLog` | φύσις en λόγος                              |
-| `PhuMoi` | φύσις en Μοῖρα                              |
-| `PhuPoi` | φύσις en ποίησις                            |
-| `Verneh` | *Vernehmende des Seienden* / φύσις en νοεῖν |
-| `Entmac` | *Entmachtung der* φύσις                     |
-| `Physik` | Physik                                      |
+|          Code | Toelichting             |
+| ------------: | :---------------------- |
+|       `natur` | Natuur                  |
+|        `erde` | Aarde                   |
+|      `techne` | τέχνη                   |
+|       `lethe` | λήθη                    |
+|      `thesis` | θέσις                   |
+|    `aletheia` | ἀλήθεια                 |
+|       `logos` | λόγος                   |
+|       `Moira` | Μοῖρα                   |
+|     `poiesis` | ποίησις                 |
+|          `on` | ὄν                      |
+|       `ousia` | οὐσία                   |
+|     `kinesis` | κίνησις                 |
+|       `noein` | νοεῖν                   |
+|       `polis` | πόλις                   |
+| `Entmachtung` | *Entmachtung der* φύσις |
+|      `Physik` | Physik                  |
+|    `Seienden` | Seienden                |
+|        `Sein` | Sein                    |
+|   `Seinssinn` | Seinsinn                |
 
 ### Variatie
 

@@ -1,13 +1,13 @@
 38A: []
 80.1:
-- 393: PhuNat
-- 432f: [Episte, PhuOnt, PhuLog, Phusio]
-- 460: [Her123, PhuAle]
+- 393: natur
+- 432f: [Episte, PhuOnt, logos, Phusio]
+- 460: [Her123, aletheia]
 - 481: Her123
 80.2:
-- 600: PhuErd
-- 604: [PhuErd, Her123]
-- 631: PhuErd
+- 600: erde
+- 604: [erde, Her123]
+- 631: erde
 - 686f: [Her123]
 - 689
 - 791
@@ -23,7 +23,7 @@
 - 1294
 - 1306f: Her123
 - 1314f
-- 1324: [Her123, PhuTex]
+- 1324: [Her123, techne]
 - 1330f
 - 1341f: Her123
 82:
@@ -35,7 +35,7 @@
 - 72
 - 90
 - 102
-- 106f: [Entmac]
+- 106f: [poiesis]
 - 110
 - 121
 - 151
@@ -53,7 +53,7 @@
 - 489
 - 492f
 - 506
-- 517: Entmac
+- 517: poiesis
 - 556
 - 574ff
 84.2:
@@ -83,12 +83,12 @@
 - 356
 - 359
 - 362
-- 448ff: PhuLog
-- 474: [PhuLog, Pephuk]
+- 448ff: logos
+- 474: [logos, Pephuk]
 - 486: Her123
 - 498f: [ProPhu, PerPhu]
 - 505
-- 515f: [Her123, Entmac]
+- 515f: [Her123, poiesis]
 - 564
 - 654: ProPhu
 - 730: ProPhu
@@ -97,13 +97,13 @@
 - 33ff
 - 40: Aufgan
 - 55
-- 136f: [PhuThe, PhuNat]
-- 156f: PhuAle
+- 136f: [thesis, natur]
+- 156f: aletheia
 - 175: Verneh
 - 187
 - 220
 - 241: [Aufgeh, Hervor]
-- 263f: [Hervor, PhuLog, PhuMoi, PhuAle, PhuPoi]
+- 263f: [Hervor, logos, Moira, aletheia, poiesis]
 - 355f
 - 382
 - 385
@@ -129,16 +129,16 @@
 - 260
 - 267
 - 282
-- 288: [Aufgeh, PhuNat]
+- 288: [Aufgeh, natur]
 101:
 - 31
-- 64: [Physik, PhuNat, Aufgeh, Anwahr, PhuAle]
+- 64: [Physik, natur, Aufgeh, Anwahr, aletheia]
 - 69
 - 155
 - 159
 102:
 - 28: Her123
-- 44: PhuNat
+- 44: natur
 - 90
 - 132
 - 182f

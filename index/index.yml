@@ -1,17 +1,17 @@
 2:
 - 282
 4:
-- 56f: PhuNat
+- 56f: [natur]
 - 161
 - 179
 5:
-- 28: [PhuErd, Aufgeh]
+- 28: [erde, Aufgeh]
 - 47
 - 176
 - 196
 - 204
 - 278f
-- 324: Episte
+- 324: [Episte]
 - 341f
 6.1:
 - 79f
@@ -85,17 +85,17 @@
 - 343f
 - 392
 18:
-- 45f
-- 214f
+- 45f: [AriPolA]
+- 214f: [AriPZMA]
 - 218
-- 224f
+- 224f: [AriPZMA]
 - 266
-- 284
-- 380
+- 284: [AriPhy, kinesis]
+- 380: [AriPhy]
 19:
-- 41: PhuTex
-- 46: PhuTex
-- 89: PhuTex
+- 41: [techne]
+- 46: [techne]
+- 89: [techne]
 - 210f
 - 237
 - 436f
@@ -104,8 +104,8 @@
 - 548
 - 557
 21:
-- 1: Episte
-- 77: '?'
+- 1: [Episte]
+- 77: ['?']
 22:
 - 35: Phusio
 - 216: Phusio
@@ -174,7 +174,7 @@
 - 129ff: SeAlSo
 - 137: SeAlSo
 - 139: Verneh
-- 178ff: [Verneh, PhuTex]
+- 178ff: [Verneh, techne]
 46:
 - 164
 - 204
@@ -201,12 +201,12 @@
 - 140
 54:
 - 100: Aufgeh
-- 151: PhuNat
-- 176: PhuLet
-- 206f: [Aufgeh, PhuAle]
-- 211f: [PhuErd, Aia647, Aufgeh]
+- 151: natur
+- 176: lethe
+- 206f: [Aufgeh, aletheia]
+- 211f: [erde, Aia647, Aufgeh]
 - 233: [Phuein, Aufgeh]
-- 242: PhuAle
+- 242: aletheia
 55:
 - 16f
 - 25
@@ -231,18 +231,18 @@
 - 365ff
 - 371
 62:
-- 41
-- 99
-- 187
-- 212
-- 229
-- 253
-- 270f
-- 305
-- 324
-- 333
+- 41: [AriMetA2]
+- 99: [AriPhy8, kinesis]
+- 187: [AriCoeC1, Parmenides]
+- 212: [nomos, Parmenides]
+- 229: [Parmenides]
+- 253: [AriPhy]
+- 270f: [Ausgang, Physik, kinesis]
+- 305: [Wiesein]
+- 324: [AriPhy8]
+- 333: [nomos]
 - 385
-- 393
+- 393: [AriPhy]
 65:
 - 126
 - 184
@@ -328,7 +328,7 @@
 - 32
 - 78
 - 85
-- 122-125: [Entmac]
+- 122-125: [poiesis]
 - 128-133
 - 141
 - 145f
@@ -446,7 +446,7 @@
 94:
 - 241
 - 245
-- 247: [Entmac, Metaph, Episte]
+- 247: [poiesis, Metaph, Episte]
 95:
 - 55
 96:
