@@ -56,7 +56,7 @@ We sommen hieronder de gebruikte categorieën op in de drie genoemde groepen.
 |          Code | Toelichting                                             |
 | ------------: | :------------------------------------------------------ |
 |      `Her123` | Heraclitus, fr. 123: φύσις κρύπτεσθαι φιλεῖ             |
-|      `Emped8` | Empedocles, Fr. 8                                       |
+|        `Emp8` | Empedocles, Fr. 8                                       |
 |      `Aia647` | Sophokles, *Aias*, vs. 647 (φύειν)                      |
 |      `Platon` | φύσις bij Plato                                         |
 | `Aristoteles` | φύσις bij Aristoteles                                   |
@@ -80,38 +80,44 @@ We sommen hieronder de gebruikte categorieën op in de drie genoemde groepen.
 
 ### Andere begrippen
 
-|          Code | Toelichting             |
-| ------------: | :---------------------- |
-|       `natur` | Natuur                  |
-|        `erde` | Aarde                   |
-|      `techne` | τέχνη                   |
-|       `lethe` | λήθη                    |
-|      `thesis` | θέσις                   |
-|    `aletheia` | ἀλήθεια                 |
-|       `logos` | λόγος                   |
-|       `Moira` | Μοῖρα                   |
-|     `poiesis` | ποίησις                 |
-|          `on` | ὄν                      |
-|       `ousia` | οὐσία                   |
-|     `kinesis` | κίνησις                 |
-|       `noein` | νοεῖν                   |
-|       `polis` | πόλις                   |
-| `Entmachtung` | *Entmachtung der* φύσις |
-|      `Physik` | Physik                  |
-|    `Seienden` | Seienden                |
-|        `Sein` | Sein                    |
-|   `Seinssinn` | Seinsinn                |
+|             Code | Toelichting                    |
+| ---------------: | :----------------------------- |
+|       `aletheia` | ἀλήθεια                        |
+| `arche-kineseos` | ἀρχὴ κινήσεως                  |
+|           `erde` | Aarde                          |
+|          `einai` | εἶναι                          |
+|    `Entmachtung` | *Entmachtung der* φύσις        |
+|          `genos` | γένος                          |
+|           `hypo` | ὑπό                            |
+|        `kinesis` | κίνησις                        |
+|          `lethe` | λήθη                           |
+|          `logos` | λόγος                          |
+|          `Moira` | Μοῖρα                          |
+|          `Natur` | Natuur                         |
+|          `noein` | νοεῖν                          |
+|             `on` | ὄν                             |
+|          `ousia` | οὐσία                          |
+|         `Physik` | Physik                         |
+|        `poiesis` | ποίησις                        |
+|          `polis` | πόλις                          |
+|       `Seienden` | Seienden                       |
+|           `Sein` | Sein                           |
+|      `Seinssinn` | Seinsinn                       |
+|         `techne` | τέχνη                          |
+|         `thesis` | θέσις                          |
+|    `Anwesenheit` | Anwesenheit                    |
+|      `vorhanden` | Das immer schon vorhanden sein |
 
 ### Variatie
 
-|     Code | Toelichting                                 |
-| -------: | :------------------------------------------ |
-| `Phusio` | φυσιολόγοι                                  |
-| `Metaph` | Metaphysik/μετὰ τὰ φύσικα                   |
-| `Phuein` | φύειν                                       |
-| `Pephuk` | πέφυκε                                      |
-| `PhuOnt` | φύσει ὄντα                                  |
-| `ProPhu` | πρότερον φύσει                              |
-| `Episte` | ἐπιστήμαι ἠθική, λογική & φυσική            |
-| `PerPhu` | περὶ φύσεως                                 |
+|              Code | Toelichting                                 |
+| ----------------: | :------------------------------------------ |
+|     `phusiologoi` | φυσιολόγοι                                  |
+|      `Metaphysik` | Metaphysikysik/μετὰ τὰ φύσικα               |
+|          `phuein` | φύειν                                       |
+|         `pephuke` | πέφυκε                                      |
+|     `phusei-onta` | φύσει ὄντα                                  |
+| `proteron-phusei` | πρότερον φύσει                              |
+|        `episteme` | ἐπιστήμαι ἠθική, λογική & φυσική            |
+|    `peri-phuseos` | περὶ φύσεως                                 |
 

@@ -1,7 +1,7 @@
 2:
 - 282
 4:
-- 56f: [natur]
+- 56f: [Natur]
 - 161
 - 179
 5:
@@ -11,7 +11,7 @@
 - 196
 - 204
 - 278f
-- 324: [Episte]
+- 324: [episteme]
 - 341f
 6.1:
 - 79f
@@ -93,26 +93,26 @@
 - 284: [AriPhy, kinesis]
 - 380: [AriPhy]
 19:
-- 41: [techne]
+- 41: [techne, phusei-onta, AriEth4, AriMet7]
 - 46: [techne]
-- 89: [techne]
-- 210f
-- 237
-- 436f
-- 451
-- 473
-- 548
-- 557
+- 89: [techne, AriPhy1]
+- 210f: [poiesis, AriMet4]
+- 237: [Her123, peri-phuseos, Parmenides]
+- 436f: [phusiologoi, Parmenides, phusei-onta, AriMet4, AriPhy2, arche-kineseos]
+- 451: [hypo]
+- 473: [einai]
+- 548: [genos, PlaPhae]
+- 557: [genos, PlaPhae]
 21:
-- 1: [Episte]
-- 77: ['?']
+- 1: [episteme, Natur]
+- 77: [Anwesenheit, vorhanden]
 22:
-- 35: Phusio
-- 216: Phusio
-- 243: Emped8
-- 287: '?'
+- 35: [phusiologoi, peri-phuseos, logos, Natur, phuein, vorhanden, PlaPhai96, AriMet986]
+- 216: [phusiologoi, peri-phuseos, PlaPhai96, AriMet986]
+- 243: [Emp8, Entstehen, Demokrit, Leukipp]
+- 287: [Natur]
 24:
-- 151
+- 151: [phuein, Natur, herstellen]
 26:
 - 221
 28:
@@ -201,11 +201,11 @@
 - 140
 54:
 - 100: Aufgeh
-- 151: natur
+- 151: Natur
 - 176: lethe
 - 206f: [Aufgeh, aletheia]
 - 211f: [erde, Aia647, Aufgeh]
-- 233: [Phuein, Aufgeh]
+- 233: [phuein, Aufgeh]
 - 242: aletheia
 55:
 - 16f
@@ -387,7 +387,7 @@
 - 209
 - 269
 83:
-- 3f
+- 3f: [Natur, arche-kineseos, AriPhy3]
 - 121
 - 137
 - 140
@@ -399,7 +399,7 @@
 - 210
 - 213
 - 215f
-- 227
+- 227: [AriPhy2, AriPhy3, arche-kineseos, Natur, techne]
 - 357
 - 359
 - 369
@@ -446,7 +446,7 @@
 94:
 - 241
 - 245
-- 247: [poiesis, Metaph, Episte]
+- 247: [poiesis, Metaphysik, episteme]
 95:
 - 55
 96:

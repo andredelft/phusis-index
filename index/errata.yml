@@ -1,13 +1,29 @@
 2:
 - 282: null
 18:
-- 172: [AriMetD, Vorgehen]
+- 172: [AriMet4, Vorgehen]
 - 214f: 213
 - 218: null
 - 241: [Sein, Natur, AriPZMA, polis]
 - 266: null
 - 284: 284f
 - 368: [AriPhy]
+19:
+- 41: 41f
+- 87: [AriPhy1]
+- 548: 546
+- 562f: [PlaPhae]
+21:
+- 3: [logos, ethos]
+22:
+- 32: [Vorhanden]
+- 35: 35f
+- 191: [Natur]
+- 170: [kinesis]
+- 203: [kinesis]
+- 243: 243f
+24:
+- 149: [essentia, Natur]
 45:
 - 137: 136f
 55:
@@ -22,5 +38,8 @@
 - 336: [Seienden]
 - 385: null
 - 393: 394f
+83:
+- 229: [arche-kineseos]
+- 239: []
 96:
 - 9: 8f

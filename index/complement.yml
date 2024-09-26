@@ -1,7 +1,7 @@
 38A: []
 80.1:
-- 393: natur
-- 432f: [Episte, PhuOnt, logos, Phusio]
+- 393: Natur
+- 432f: [episteme, phusei-onta, logos, phusiologoi]
 - 460: [Her123, aletheia]
 - 481: Her123
 80.2:
@@ -58,11 +58,11 @@
 - 574ff
 84.2:
 - 660
-- 733ff: [ProPhu]
+- 733ff: [proteron-phusei]
 - 737
-- 748: ProPhu
+- 748: proteron-phusei
 - 798f
-- 872: ProPhu
+- 872: proteron-phusei
 91:
 - 7f
 - 10f
@@ -72,10 +72,10 @@
 - 70
 - 73f
 - 80
-- 88: PhuOnt
-- 91: PhuOnt
-- 97f: [PhuOnt]
-- 105: PhuOnt
+- 88: phusei-onta
+- 91: phusei-onta
+- 97f: [phusei-onta]
+- 105: phusei-onta
 - 115
 - 174
 - 237
@@ -84,20 +84,20 @@
 - 359
 - 362
 - 448ff: logos
-- 474: [logos, Pephuk]
+- 474: [logos, pephuke]
 - 486: Her123
-- 498f: [ProPhu, PerPhu]
+- 498f: [proteron-phusei, peri-phuseos]
 - 505
 - 515f: [Her123, poiesis]
 - 564
-- 654: ProPhu
-- 730: ProPhu
+- 654: proteron-phusei
+- 730: proteron-phusei
 98:
-- 9: ProPhu
+- 9: proteron-phusei
 - 33ff
 - 40: Aufgan
 - 55
-- 136f: [thesis, natur]
+- 136f: [thesis, Natur]
 - 156f: aletheia
 - 175: Verneh
 - 187
@@ -129,16 +129,16 @@
 - 260
 - 267
 - 282
-- 288: [Aufgeh, natur]
+- 288: [Aufgeh, Natur]
 101:
 - 31
-- 64: [Physik, natur, Aufgeh, Anwahr, aletheia]
+- 64: [Physik, Natur, Aufgeh, Anwahr, aletheia]
 - 69
 - 155
 - 159
 102:
 - 28: Her123
-- 44: natur
+- 44: Natur
 - 90
 - 132
 - 182f
