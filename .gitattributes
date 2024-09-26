@@ -1,0 +1,8 @@
+figures/phusis-ga.png filter=lfs diff=lfs merge=lfs -text
+figures/phusis-orig.png filter=lfs diff=lfs merge=lfs -text
+figures/phusis-orig_lectures.png filter=lfs diff=lfs merge=lfs -text
+figures/phusis-orig_notes-unpublished.png filter=lfs diff=lfs merge=lfs -text
+figures/phusis-orig_uncorrected.png filter=lfs diff=lfs merge=lfs -text
+figures/phusis-pie-chart.png filter=lfs diff=lfs merge=lfs -text
+figures/phusis-pie-chart_uncorrected.png filter=lfs diff=lfs merge=lfs -text
+figures/phusis-pub.png filter=lfs diff=lfs merge=lfs -text

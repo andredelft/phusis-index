@@ -4,7 +4,6 @@ Deze repository biedt een overzicht van het voorkomen van het lemma φύσις i
 
 ## Kanttekeningen
 
-* De protocollen uit GA 83 t/m 88 zijn achterwege gelaten in de datering. De vermeldingen in de notities niet. <!-- Wat zijn de 'Ergängzungen' uit GA 88? -->
 * Niet door Unruh meegenomen: vol. 38A, 72, 80.1, 80.2, 82, 84.2, 91-93, 98-102 (14 delen)
 * Niet te dateren: 
   * GA 73: Tijdspanne van ongeveer dertig jaar (*Nachwort des Herausgebers*, p. 1489)
