@@ -114,6 +114,7 @@ We sommen hieronder de gebruikte categorieën op in de drie genoemde groepen.
 | ----------------: | :------------------------------------------ |
 |     `phusiologoi` | φυσιολόγοι                                  |
 |      `Metaphysik` | Metaphysikysik/μετὰ τὰ φύσικα               |
+|         `phusika` | φυσικά                                      |
 |          `phuein` | φύειν                                       |
 |         `pephuke` | πέφυκε                                      |
 |     `phusei-onta` | φύσει ὄντα                                  |
