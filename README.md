@@ -40,7 +40,7 @@ In dit voorbeeld geldt:
 * GA 5, p. 40 moet worden toegevoegd
 * GA 45, p. 137 moet worden vervangen door 136f.
 
-Errata zijn bijgehouden bij het doorlopen door de referenties. Er is gemerkt dat Unruhs referentielijst een groot deel van de referenties bevat, maar ook een aardig deel over het hoofd heeft gezien. Bij de doorloop door alle referenties zijn de correcties bijgehouden, maar ook is er digitaal door de beschikbare PDF-bestanden gezocht (commit ref). Hoewel dit een aantal extra referenties heeft opgeleverd, is ook deze digitale zoektocht niet perfect. Bijv. op GA 5, 196 wordt φύσις genoemd (Unruh heeft deze referentie), maar is door de OCR gecodeerd als ‘φύσι,ς’, waardoor de zoekopdracht hem niet ziet.
+Errata zijn bijgehouden bij het doorlopen door de referenties. Er is gemerkt dat Unruhs referentielijst een groot deel van de referenties bevat, maar ook een aardig deel over het hoofd heeft gezien. Bij de doorloop door alle referenties zijn de correcties bijgehouden, maar ook is er digitaal door de beschikbare PDF-bestanden gezocht ([2c5b57f](https://github.com/andredelft/phusis-index/commit/2c5b57ffb1d82960b4858bee97607f3e24cb8cab)). Hoewel dit een aantal extra referenties heeft opgeleverd, is ook deze digitale zoektocht niet perfect. Bijv. op GA 5, 196 wordt φύσις genoemd (Unruh heeft deze referentie), maar is door de OCR gecodeerd als ‘φύσι,ς’, waardoor de zoekopdracht hem niet ziet.
 
 ## Categorisering
 
