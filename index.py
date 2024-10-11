@@ -75,10 +75,12 @@ class Reference:
 
             ref_str = str(reference)
 
-            if isinstance(categories, list):
-                categories = set(categories)
-            else:
-                categories = {categories}
+            if isinstance(categories, str):
+                raise DeprecationWarning(
+                    f"Category '{categories}' must be contained in a list"
+                )
+
+            categories = set(categories)
         else:
             ref_str = str(yaml)
             categories: set[str] = set()

@@ -1,11 +1,11 @@
 import yaml
 from typing import TypedDict
 
-from utils import first_key, first_item, first_value
+from utils import first_item, first_value
 
 
 RefValue = str | int
-Categories = str | list[str]
+Categories = list[str]
 
 VolumeName = str | int
 ReferenceObj = RefValue | dict[RefValue, Categories]
