@@ -1,31 +1,31 @@
 38A: []
 80.1:
-- 393: Natur
+- 393: [Natur]
 - 432f: [episteme, phusei-onta, logos, phusiologoi]
 - 460: [Her123, aletheia]
-- 481: Her123
+- 481: [Her123]
 80.2:
-- 600: erde
+- 600: [erde]
 - 604: [erde, Her123]
-- 631: erde
+- 631: [erde]
 - 686f: [Her123]
 - 689
 - 791
 - 806ff
 - 812
 - 814
-- 827: Platon
-- 836: Platon
+- 827: [Platon]
+- 836: [Platon]
 - 857
 - 956
 - 1101ff
 - 1264
 - 1294
-- 1306f: Her123
+- 1306f: [Her123]
 - 1314f
 - 1324: [Her123, techne]
 - 1330f
-- 1341f: Her123
+- 1341f: [Her123]
 82:
 - 12
 - 25
@@ -53,16 +53,16 @@
 - 489
 - 492f
 - 506
-- 517: poiesis
+- 517: [poiesis]
 - 556
 - 574ff
 84.2:
 - 660
 - 733ff: [proteron-phusei]
 - 737
-- 748: proteron-phusei
+- 748: [proteron-phusei]
 - 798f
-- 872: proteron-phusei
+- 872: [proteron-phusei]
 91:
 - 7f
 - 10f
@@ -72,10 +72,10 @@
 - 70
 - 73f
 - 80
-- 88: phusei-onta
-- 91: phusei-onta
+- 88: [phusei-onta]
+- 91: [phusei-onta]
 - 97f: [phusei-onta]
-- 105: phusei-onta
+- 105: [phusei-onta]
 - 115
 - 174
 - 237
@@ -83,23 +83,23 @@
 - 356
 - 359
 - 362
-- 448ff: logos
+- 448ff: [logos]
 - 474: [logos, pephuke]
-- 486: Her123
+- 486: [Her123]
 - 498f: [proteron-phusei, peri-phuseos]
 - 505
 - 515f: [Her123, poiesis]
 - 564
-- 654: proteron-phusei
-- 730: proteron-phusei
+- 654: [proteron-phusei]
+- 730: [proteron-phusei]
 98:
-- 9: proteron-phusei
+- 9: [proteron-phusei]
 - 33ff
-- 40: Aufgan
+- 40: [Aufgan]
 - 55
 - 136f: [thesis, Natur]
-- 156f: aletheia
-- 175: Verneh
+- 156f: [aletheia]
+- 175: [Verneh]
 - 187
 - 220
 - 241: [Aufgeh, Hervor]
@@ -137,8 +137,8 @@
 - 155
 - 159
 102:
-- 28: Her123
-- 44: Natur
+- 28: [Her123]
+- 44: [Natur]
 - 90
 - 132
 - 182f

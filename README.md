@@ -62,23 +62,23 @@ We sommen hieronder de gebruikte categorieën op in de drie genoemde groepen.
 |      `Aia647` | Sophokles, *Aias*, vs. 647 (φύειν)                      |
 |      `Platon` | φύσις bij Plato                                         |
 | `Aristoteles` | φύσις bij Aristoteles                                   |
-|     `AriPZMA` | Aristoteles, Περὶ ζῴων μορίων (*De Partibus Animalium*) |
+|     `AriPZM1` | Aristoteles, Περὶ ζῴων μορίων (*De Partibus Animalium*) |
 |  `Parmenides` | φύσις bij Parmenides                                    |
 
 ### Vertalingen
 
-|       Code | Toelichting                     |
-| ---------: | :------------------------------ |
-|   `SeiIGa` | Vert. als *Seiende im Ganzen*   |
-|   `SeAlSo` | Vert. als *Seiende als solches* |
-|   `ReiAuf` | Vert. als *Reine Aufgehen*      |
-|   `Aufgeh` | Vert. als *Aufgehen*            |
-|   `Aufgan` | Vert. als *Aufgang*             |
-|   `Hervor` | Vert. als *Hervorbringen*       |
-|   `Anwahr` | Vert. als *Anwähren*            |
-|  `Ausgang` | Vert. als *Ausgang*             |
-|  `Wiesein` | Vert. als *Wie-sein*            |
-| `Vorgehen` | Vert. als *Vorgehen*            |
+|                  Code | Toelichting                     |
+| --------------------: | :------------------------------ |
+|  `Seienden-im-Ganzen` | Vert. als *Seiende im Ganzen*   |
+| `Seiende-als-solches` | Vert. als *Seiende als solches* |
+|              `ReiAuf` | Vert. als *Reine Aufgehen*      |
+|              `Aufgeh` | Vert. als *Aufgehen*            |
+|              `Aufgan` | Vert. als *Aufgang*             |
+|              `Hervor` | Vert. als *Hervorbringen*       |
+|              `Anwahr` | Vert. als *Anwähren*            |
+|             `Ausgang` | Vert. als *Ausgang*             |
+|             `Wiesein` | Vert. als *Wie-sein*            |
+|            `Vorgehen` | Vert. als *Vorgehen*            |
 
 ### Andere begrippen
 
@@ -90,11 +90,13 @@ We sommen hieronder de gebruikte categorieën op in de drie genoemde groepen.
 |          `einai` | εἶναι                          |
 |    `Entmachtung` | *Entmachtung der* φύσις        |
 |          `genos` | γένος                          |
+|        `heteron` | ἕτερον                         |
 |           `hypo` | ὑπό                            |
 |        `kinesis` | κίνησις                        |
 |          `lethe` | λήθη                           |
 |          `logos` | λόγος                          |
 |          `Moira` | Μοῖρα                          |
+|          `moria` | Μοῖρα                          |
 |          `Natur` | Natuur                         |
 |          `noein` | νοεῖν                          |
 |             `on` | ὄν                             |
@@ -102,6 +104,7 @@ We sommen hieronder de gebruikte categorieën op in de drie genoemde groepen.
 |         `Physik` | Physik                         |
 |        `poiesis` | ποίησις                        |
 |          `polis` | πόλις                          |
+|         `psuche` | ψυχή                           |
 |       `Seienden` | Seienden                       |
 |           `Sein` | Sein                           |
 |      `Seinssinn` | Seinsinn                       |

@@ -1,5 +1,5 @@
 2:
-- 282
+- 282: [Her123, aletheia, Sein]
 4:
 - 56f: [Natur]
 - 161
@@ -41,7 +41,7 @@
 8:
 - 227
 9:
-- 189f: SeiIGa
+- 189f: [Seienden-im-Ganzen]
 - 239
 - 241ff
 - 245-248
@@ -76,7 +76,7 @@
 12:
 - 252
 13:
-- 145: '?'
+- 145
 15:
 - 64
 - 136
@@ -86,10 +86,10 @@
 - 392
 18:
 - 45f: [AriPolA]
-- 214f: [AriPZMA]
-- 218
-- 224f: [AriPZMA]
-- 266
+- 214f: [AriPZM1]
+- 218: []
+- 224f: [AriPZM1]
+- 266: []
 - 284: [AriPhy, kinesis]
 - 380: [AriPhy]
 19:
@@ -101,7 +101,7 @@
 - 436f: [phusiologoi, Parmenides, phusei-onta, AriMet4, AriPhy2, arche-kineseos]
 - 451: [hypo]
 - 473: [einai]
-- 548: [genos, PlaPhae]
+- 548: [genos, PlaPhae, Sein]
 - 557: [genos, PlaPhae]
 21:
 - 1: [episteme, Natur]
@@ -116,9 +116,9 @@
 26:
 - 221: [Natur, arche-kineseos]
 28:
-- 23ff: [Metaphysik, phusika, SeiIGa, kosmos, phusiologoi]
+- 23ff: [Metaphysik, phusika, Seienden-im-Ganzen, kosmos, phusiologoi]
 29/30:
-- 38-51
+- 38-51: [phuein, wachsen, Seienden-im-Ganzen, Natur, logos, Her123, Her112, aletheia, krupthestai, ]
 - 54
 - 444
 - 447
@@ -170,10 +170,10 @@
 - 97f
 - 209ff
 45:
-- 97: Aufgan
-- 129ff: SeAlSo
-- 137: SeAlSo
-- 139: Verneh
+- 97: [Aufgan]
+- 129ff: [Seiende-als-solches]
+- 137: [Seiende-als-solches]
+- 139: [Verneh]
 - 178ff: [Verneh, techne]
 46:
 - 164
@@ -200,13 +200,13 @@
 - 135
 - 140
 54:
-- 100: Aufgeh
-- 151: Natur
-- 176: lethe
+- 100: [Aufgeh]
+- 151: [Natur]
+- 176: [lethe]
 - 206f: [Aufgeh, aletheia]
 - 211f: [erde, Aia647, Aufgeh]
 - 233: [phuein, Aufgeh]
-- 242: aletheia
+- 242: [aletheia]
 55:
 - 16f
 - 25
@@ -241,7 +241,7 @@
 - 305: [Wiesein]
 - 324: [AriPhy8]
 - 333: [nomos]
-- 385
+- 385: []
 - 393: [AriPhy]
 65:
 - 126

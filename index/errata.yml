@@ -1,5 +1,5 @@
 2:
-- 266
+- 266: [idea, ousia]
 3:
 - 7
 - 222
@@ -30,33 +30,33 @@
 17:
 - 169
 18:
-- 3
+- 3: [Grundbegriff, AriMet5]
 - 172: [AriMet4, Vorgehen]
-- 211
+- 211: [AriPZM1]
 - 214f: 213
 - 218: null
-- 241: [Sein, Natur, AriPZMA, polis]
-- 243
+- 241: [Sein, Natur, AriPZM1, polis]
+- 243: [AriEthNicK]
 - 266: null
 - 284: 284f
 - 368: [AriPhy]
 19:
 - 41: 41f
-- 81
+- 81: [AriMet5]
 - 87: [AriPhy1]
-- 98
-- 136f
-- 336
-- 364
-- 540
+- 98: [AriMet1]
+- 136f: [AriEthNic4, ousia]
+- 336: [PlaPhae, Seienden, Natur, psuche]
+- 364: [PlaPhae, Seienden]
+- 540: [kinesis]
 - 548: 546ff
 - 562f: [PlaPhae]
 - 557: 556f
-- 562f
-- 570
-- 631
+- 562f: [moria, PlaSoph, heteron]
+- 570: [PlaPol]
+- 631: [arche, ousia]
 21:
-- 3f: [logos, ethos]
+- 3f: [logos, ethos, Diog3]
 22:
 - 32: [Vorhanden]
 - 35: 35f
@@ -65,19 +65,19 @@
 - 203: [kinesis]
 - 243: 243f
 23:
-- 3
+- 3: [Seienden, kosmos]
 24:
-- 121
+- 121: [Natur]
 - 149: [essentia, Natur]
-- 196
-- 330
+- 196: [essentia, Natur]
+- 330: [Natur, Wesen]
 26:
-- 228
+- 228: [KantKrdV, Natur, Ganzheit]
 - 281: [Her123]
 28:
-- 29
-- 254
-- 351
+- 29: [Natur, Kant]
+- 254: [Natur]
+- 351: [Wesen]
 33:
 - 46
 36/37:
@@ -119,7 +119,7 @@
 - 385: null
 - 393: 394f
 63:
-- 10
+- 10: [AriAni2]
 65:
 - 45
 - 115: [Entmachtung]
