@@ -55,15 +55,23 @@ We sommen hieronder de gebruikte categorieën op in de drie genoemde groepen.
 
 ### Antieke referenties
 
+We noemen de auteur/filosoof die besproken wordt bij de hele naam, of we korten het af en specificiëren met dubbele punten steeds verder om welke referentie het gaat. Bijv. `Ari:Phy` verwijst naar de *Physica* van Aristoteles, `Ari:Phy:4` naar het vierde boek van de *Fysica*, etc. De opdeling is contextafhankelijk. `Her:123` verwijst bijvoorbeeld naar het 123e *fragment* van Heraclitus. Enkele voorbeelden:
+
 |          Code | Toelichting                                             |
 | ------------: | :------------------------------------------------------ |
-|      `Her123` | Heraclitus, fr. 123: φύσις κρύπτεσθαι φιλεῖ             |
-|        `Emp8` | Empedocles, Fr. 8                                       |
-|      `Aia647` | Sophokles, *Aias*, vs. 647 (φύειν)                      |
+|     `Her:123` | Heraclitus, fr. 123: φύσις κρύπτεσθαι φιλεῖ             |
+|       `Emp:8` | Empedocles, Fr. 8                                       |
+|    `Soph:Aia` | Sophokles, *Aias*                                       |
 |      `Platon` | φύσις bij Plato                                         |
 | `Aristoteles` | φύσις bij Aristoteles                                   |
-|     `AriPZM1` | Aristoteles, Περὶ ζῴων μορίων (*De Partibus Animalium*) |
+|     `Ari:Par` | Aristoteles, Περὶ ζῴων μορίων (*De Partibus Animalium*) |
 |  `Parmenides` | φύσις bij Parmenides                                    |
+
+Er zijn ook een aantal referenties naar moderne werken:
+
+|          Code | Toelichting                                             |
+| ------------: | :------------------------------------------------------ |
+|   `Kant:Vorl` | *Vorlesungen Kants über Metaphysik*                     |
 
 ### Vertalingen
 
@@ -92,6 +100,7 @@ We sommen hieronder de gebruikte categorieën op in de drie genoemde groepen.
 |          `genos` | γένος                          |
 |        `heteron` | ἕτερον                         |
 |           `hypo` | ὑπό                            |
+|       `katholou` | καθόλου                        |
 |        `kinesis` | κίνησις                        |
 |          `lethe` | λήθη                           |
 |          `logos` | λόγος                          |
@@ -110,6 +119,7 @@ We sommen hieronder de gebruikte categorieën op in de drie genoemde groepen.
 |      `Seinssinn` | Seinsinn                       |
 |         `techne` | τέχνη                          |
 |         `thesis` | θέσις                          |
+|         `timios` | τίμιος                         |
 |    `Anwesenheit` | Anwesenheit                    |
 |      `vorhanden` | Das immer schon vorhanden sein |
 
@@ -126,4 +136,5 @@ We sommen hieronder de gebruikte categorieën op in de drie genoemde groepen.
 | `proteron-phusei` | πρότερον φύσει                              |
 |        `episteme` | ἐπιστήμαι ἠθική, λογική & φυσική            |
 |    `peri-phuseos` | περὶ φύσεως                                 |
+|     `kata-phusin` | κατὰ φύσιν                                  |
 

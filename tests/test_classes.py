@@ -4,9 +4,9 @@ import pytest
 
 @pytest.fixture
 def references():
-    r1 = Reference.from_yaml({28: "Her123"})
+    r1 = Reference.from_yaml({28: "Her:123"})
     r2 = Reference.from_yaml("23ff.")
-    r3 = Reference.from_yaml({"30-35": ["Her123", "techne"]})
+    r3 = Reference.from_yaml({"30-35": ["Her:123", "techne"]})
 
     return r1, r2, r3
 
@@ -19,7 +19,7 @@ def volume(references):
 @pytest.fixture
 def index():
     return Index.from_yaml(
-        {"6.1": [{28: "Her123"}, "23ff."], 3: [{"30-35": ["Her123", "techne"]}]}
+        {"6.1": [{28: "Her:123"}, "23ff."], 3: [{"30-35": ["Her:123", "techne"]}]}
     )
 
 
@@ -35,9 +35,9 @@ def test_references(references):
     assert len(r2) == 3
     assert len(r3) == 6
 
-    assert r1.categories == {"Her123"}
+    assert r1.categories == {"Her:123"}
     assert r2.categories == set()
-    assert r3.categories == {"Her123", "techne"}
+    assert r3.categories == {"Her:123", "techne"}
 
 
 def test_volume(volume):

@@ -1,14 +1,14 @@
 38A: []
 80.1:
-- 393: [Natur]
-- 432f: [episteme, phusei-onta, logos, phusiologoi]
-- 460: [Her123, aletheia]
-- 481: [Her123]
+- 393: [Natur, Befreiung]
+- 432f: [episteme, phusei-onta, logos, phusiologoi, arche-kineseos]
+- 460: [Her:123, aletheia]
+- 481: [Her:123]
 80.2:
 - 600: [erde]
-- 604: [erde, Her123]
+- 604: [erde, Her:123]
 - 631: [erde]
-- 686f: [Her123]
+- 686f: [Her:123]
 - 689
 - 791
 - 806ff
@@ -21,11 +21,11 @@
 - 1101ff
 - 1264
 - 1294
-- 1306f: [Her123]
+- 1306f: [Her:123]
 - 1314f
-- 1324: [Her123, techne]
+- 1324: [Her:123, techne]
 - 1330f
-- 1341f: [Her123]
+- 1341f: [Her:123]
 82:
 - 12
 - 25
@@ -64,7 +64,7 @@
 - 798f
 - 872: [proteron-phusei]
 91:
-- 7f
+- 7f: [Ari:Met]
 - 10f
 - 52
 - 64
@@ -77,7 +77,7 @@
 - 97f: [phusei-onta]
 - 105: [phusei-onta]
 - 115
-- 174
+- 174: [polis, Metphysik, Metapolitik]
 - 237
 - 329
 - 356
@@ -85,10 +85,10 @@
 - 362
 - 448ff: [logos]
 - 474: [logos, pephuke]
-- 486: [Her123]
+- 486: [Her:123]
 - 498f: [proteron-phusei, peri-phuseos]
 - 505
-- 515f: [Her123, poiesis]
+- 515f: [Her:123, poiesis]
 - 564
 - 654: [proteron-phusei]
 - 730: [proteron-phusei]
@@ -137,7 +137,7 @@
 - 155
 - 159
 102:
-- 28: [Her123]
+- 28: [Her:123]
 - 44: [Natur]
 - 90
 - 132

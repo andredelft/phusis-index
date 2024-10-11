@@ -1,5 +1,5 @@
 2:
-- 282: [Her123, aletheia, Sein]
+- 282: [Her:123, aletheia, Sein]
 4:
 - 56f: [Natur]
 - 161
@@ -86,19 +86,19 @@
 - 392
 18:
 - 45f: [AriPolA]
-- 214f: [AriPZM1]
+- 214f: [Ari:Par:1]
 - 218: []
-- 224f: [AriPZM1]
+- 224f: [Ari:Par:1]
 - 266: []
-- 284: [AriPhy, kinesis]
-- 380: [AriPhy]
+- 284: [Ari:Phy, kinesis]
+- 380: [Ari:Phy]
 19:
-- 41: [techne, phusei-onta, AriEth4, AriMet7]
+- 41: [techne, phusei-onta, Ari:Eth4, Ari:Met:7]
 - 46: [techne]
-- 89: [techne, AriPhy1]
-- 210f: [poiesis, AriMet4]
-- 237: [Her123, peri-phuseos, Parmenides]
-- 436f: [phusiologoi, Parmenides, phusei-onta, AriMet4, AriPhy2, arche-kineseos]
+- 89: [techne, Ari:Phy:1]
+- 210f: [poiesis, Ari:Met:4]
+- 237: [Her:123, peri-phuseos, Parmenides]
+- 436f: [phusiologoi, Parmenides, phusei-onta, Ari:Met:4, Ari:Phy:2, arche-kineseos]
 - 451: [hypo]
 - 473: [einai]
 - 548: [genos, PlaPhae, Sein]
@@ -107,21 +107,21 @@
 - 1: [episteme, Natur]
 - 77: [Anwesenheit, vorhanden]
 22:
-- 35: [phusiologoi, peri-phuseos, logos, Natur, phuein, vorhanden, PlaPhai96, AriMet986]
-- 216: [phusiologoi, peri-phuseos, PlaPhai96, AriMet986]
-- 243: [Emp8, Entstehen, Demokrit, Leukipp]
+- 35: [phusiologoi, peri-phuseos, logos, Natur, phuein, vorhanden, Plat:Phai96, Ari:Met:986]
+- 216: [phusiologoi, peri-phuseos, Plat:Phai96, Ari:Met:986]
+- 243: [Emp:8, Entstehen, Demokrit, Leukipp]
 - 287: [Natur]
 24:
 - 151: [phuein, Natur, herstellen]
 26:
 - 221: [Natur, arche-kineseos]
 28:
-- 23ff: [Metaphysik, phusika, Seienden-im-Ganzen, kosmos, phusiologoi]
+- 23ff: [Metaphysik, phusika, Seienden-im-Ganzen, kosmos, phusiologoi, kata-phusin, on-katholou, timiotaton-genos]
 29/30:
-- 38-51: [phuein, wachsen, Seienden-im-Ganzen, Natur, logos, Her123, Her112, aletheia, krupthestai, ]
-- 54
-- 444
-- 447
+- 38-51: [phuein, wachsen, Seienden-im-Ganzen, Natur, logos, Her:123, Her:112, aletheia, krupthestai, phusiologoi, walten, Her:54, Her:30, Physik, Metaphysik, phusei-onta, ousia, on-katholou, timiotaton-genos]
+- 54: [ethos, logos]
+- 444: [Ari:Org:2:16a27ff, logos]
+- 447: [Ari:Org:2:16a27ff, logos] 
 33:
 - 29f
 - 179
@@ -204,7 +204,7 @@
 - 151: [Natur]
 - 176: [lethe]
 - 206f: [Aufgeh, aletheia]
-- 211f: [erde, Aia647, Aufgeh]
+- 211f: [erde, Soph:Aia:647, Aufgeh]
 - 233: [phuein, Aufgeh]
 - 242: [aletheia]
 55:
@@ -231,18 +231,18 @@
 - 365ff
 - 371
 62:
-- 41: [AriMetA2]
-- 99: [AriPhy8, kinesis]
+- 41: [Ari:Met:A2]
+- 99: [Ari:Phy:8, kinesis]
 - 187: [AriCoeC1, Parmenides]
 - 212: [nomos, Parmenides]
 - 229: [Parmenides]
-- 253: [AriPhy]
+- 253: [Ari:Phy]
 - 270f: [Ausgang, Physik, kinesis]
 - 305: [Wiesein]
-- 324: [AriPhy8]
+- 324: [Ari:Phy:8]
 - 333: [nomos]
 - 385: []
-- 393: [AriPhy]
+- 393: [Ari:Phy]
 65:
 - 126
 - 184
@@ -387,7 +387,7 @@
 - 209
 - 269
 83:
-- 3f: [Natur, arche-kineseos, AriPhy3]
+- 3f: [Natur, arche-kineseos, Ari:Phy:3]
 - 121
 - 137
 - 140
@@ -399,7 +399,7 @@
 - 210
 - 213
 - 215f
-- 227: [AriPhy2, AriPhy3, arche-kineseos, Natur, techne]
+- 227: [Ari:Phy:2, Ari:Phy:3, arche-kineseos, Natur, techne]
 - 357
 - 359
 - 369
