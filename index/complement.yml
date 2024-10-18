@@ -65,18 +65,18 @@
 - 872: [proteron-phusei]
 91:
 - 7f: [Ari:Met]
-- 10f
-- 52
-- 64
-- 66
-- 70
-- 73f
-- 80
+- 10f: [Ari:Phy:7]
+- 52: [Ari:Met:7:8:1033b7]
+- 64: [Ari:Phy:7:191a8]
+- 66: [phusis-tis]
+- 70: [Ari:Met:3:2:1003a33]
+- 73f: [phusis-tis, arche-kineseos, Ari:Met:10:2:1054a9, Ari:Met:3:1, Ari:Met:3:2]
+- 80: [Plat:Tim:31c]
 - 88: [phusei-onta]
 - 91: [phusei-onta]
-- 97f: [phusei-onta]
-- 105: [phusei-onta]
-- 115
+- 97f: [phusei-onta, Ari:Phy:7:7:260b22, Ari:GenCor:2:10:336b27]
+- 105: [phusei-onta, Ari:Met:10:1:1052a20]
+- 115: [phusis-tis]
 - 174: [polis, Metphysik, Metapolitik]
 - 237
 - 329

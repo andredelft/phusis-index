@@ -101,14 +101,14 @@
 - 436f: [phusiologoi, Parmenides, phusei-onta, Ari:Met:4, Ari:Phy:2, arche-kineseos]
 - 451: [hypo]
 - 473: [einai]
-- 548: [genos, PlaPhae, Sein]
-- 557: [genos, PlaPhae]
+- 548: [genos, Plat:Phai, Sein]
+- 557: [genos, Plat:Phai]
 21:
 - 1: [episteme, Natur]
 - 77: [Anwesenheit, vorhanden]
 22:
-- 35: [phusiologoi, peri-phuseos, logos, Natur, phuein, vorhanden, Plat:Phai96, Ari:Met:986]
-- 216: [phusiologoi, peri-phuseos, Plat:Phai96, Ari:Met:986]
+- 35: [phusiologoi, peri-phuseos, logos, Natur, phuein, vorhanden, Plat:Phai:96, Ari:Met:986]
+- 216: [phusiologoi, peri-phuseos, Plat:Phai:96, Ari:Met:986]
 - 243: [Emp:8, Entstehen, Demokrit, Leukipp]
 - 287: [Natur]
 24:
