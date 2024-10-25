@@ -61,7 +61,7 @@ We noemen de auteur/filosoof die besproken wordt bij de hele naam, of we korten 
 | ------------: | :------------------------------------------------------ |
 |     `Her:123` | Heraclitus, fr. 123: φύσις κρύπτεσθαι φιλεῖ             |
 |       `Emp:8` | Empedocles, Fr. 8                                       |
-|    `Soph:Aia` | Sophokles, *Aias*                                       |
+|   `Soph:Aias` | Sophokles, *Aias*                                       |
 |      `Platon` | φύσις bij Plato                                         |
 | `Aristoteles` | φύσις bij Aristoteles                                   |
 |     `Ari:Par` | Aristoteles, Περὶ ζῴων μορίων (*De Partibus Animalium*) |
