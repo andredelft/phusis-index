@@ -3,15 +3,8 @@ from typing import Self
 from functools import cache
 
 from utils import volume_sort_key, find_closest_preceding_number
-from load import (
-    load_index_yaml,
-    load_parts_yaml,
-    load_dates_yaml,
-    ReferenceObj,
-    IndexObj,
-    DatesObj,
-    VolumeName,
-)
+from load import load_index_yaml, load_parts_yaml, load_dates_yaml
+from consts import ReferenceObj, IndexObj, DatesObj, VolumeName
 
 
 REF_REGEX = re.compile(r"^(?P<start>\d+)(?:-(?P<end>\d+)|(?P<suffix>f{1,2})\.?)?$")
