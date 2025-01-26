@@ -1,0 +1,159 @@
+Anaximander
+
+B1
+  1932:
+    GA 35: 217f
+
+Aristoteles
+
+De Anima
+  1923:
+    GA 63: 10
+De Caelo
+  1922:
+    GA 62: 186f
+  1930:
+    GA 91: 10f
+Ethica Nicomachea
+  1924:
+    GA 18: 243; GA 19: 136f
+De Generatione et Corruptione
+  1930:
+    GA 91: 97f
+De Interpretatione
+  1929:
+    GA 29/30: 447
+Metaphysica
+  1922:
+    GA 62: 41
+  1924:
+    GA 18: 172; GA 19: 437
+  1926:
+    GA 22: 216
+  1930:
+    GA 91: 105
+  1931:
+    GA 33: 29f
+  1932:
+    GA 91: 329
+De Partibus Animalium
+  1924:
+    GA 18: 240f
+Physica
+  1922:
+    GA 62: 394f
+  1924:
+    GA 18: 284f; GA 19: 437
+  1928:
+    GA 83: 227
+  1930:
+    GA 91: 97f
+Politica
+  1924:
+    GA 18: 45f
+
+Diogenes
+
+Leven en leer van beroemde filosofen
+  1925:
+    GA 21: 3f
+
+Empedocles
+
+B8
+  1926:
+    GA 22: 243f
+
+Heidegger
+
+GA 40
+  1934:
+    GA 94: 245
+
+Heraclitus
+
+B30
+  1929:
+    GA 29/30: 38-52
+B54
+  1929:
+    GA 29/30: 38-52
+B112
+  1929:
+    GA 29/30: 38-52
+B123
+  1924:
+    GA 19: 237
+  1927:
+    GA 2: 282
+  1928:
+    GA 26: 281
+  1929:
+    GA 29/30: 38-52
+  1931:
+    GA 34: 13f; GA 80.1: 481
+  1932:
+    GA 35: 18ff
+
+Hölderlin
+
+Wie wenn am Feiertage ...
+  1934:
+    GA 39: 255
+Der Rhein
+  1934:
+    GA 39: 195f
+
+Kant
+
+Kritik der reinen Vernunft
+  1928:
+    GA 26: 228
+Vorlesungen Kants über Metaphysik aus drei Semestern
+  1929:
+    GA 3: 7; GA 28: 29
+
+Parmenides
+
+B10
+  1932:
+    GA 83: 136-140
+
+Plato
+
+Parmenides
+  1932:
+    GA 83: 136-140
+Phaedo
+  1926:
+    GA 22: 216
+Phaedrus
+  1924:
+    GA 19: 336
+  1932:
+    GA 83: 136-140
+Politeia
+  1924:
+    GA 19: 570
+  1931:
+    GA 34: 114f
+  1933:
+    GA 36/37: 291
+Sofist
+  1924:
+    GA 19: 562f
+Theaetetus
+  1931:
+    GA 34: 234f
+Timeaus
+  1930:
+    GA 91: 80
+Wetten
+  1932:
+    GA 83: 121
+
+Sophocles
+
+Aias
+  1932:
+    GA 35: 217f

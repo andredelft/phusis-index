@@ -5,9 +5,9 @@
 - 460: [Her:123, aletheia]
 - 481: [Her:123]
 80.2:
-- 600: [erde]
-- 604: [erde, Her:123]
-- 631: [erde]
+- 600: [Erde]
+- 604: [Erde, Her:123]
+- 631: [Erde]
 - 686f: [Her:123]
 - 689
 - 791
@@ -64,20 +64,20 @@
 - 798f
 - 872: [proteron-phusei]
 91:
-- 7f: [Ari:Met]
-- 10f: [Ari:Phy:7]
+- 7f: [Ari:Met:12:10:1075a12]
+- 10f: [Ari:Phy:1:2:184b25, Ari:Cae:3:1:298b2, Ari:Phy:7]
 - 52: [Ari:Met:7:8:1033b7]
 - 64: [Ari:Phy:7:191a8]
 - 66: [phusis-tis]
 - 70: [Ari:Met:3:2:1003a33]
 - 73f: [phusis-tis, arche-kineseos, Ari:Met:10:2:1054a9, Ari:Met:3:1, Ari:Met:3:2]
-- 80: [Plat:Tim:31c]
+- 80: [Pla:Tim:31c]
 - 88: [phusei-onta]
 - 91: [phusei-onta]
 - 97f: [phusei-onta, Ari:Phy:7:7:260b22, Ari:GenCor:2:10:336b27]
 - 105: [phusei-onta, Ari:Met:10:1:1052a20]
 - 115: [phusis-tis]
-- 174: [polis, Metphysik, Metapolitik]
+- 174: [polis, Metaphysik, Metapolitik]
 - 237: [Ari:Met:4:1005b33, Natur, arche, Satz-vom-Widerspruch]
 - 329: [Ari:Met:4:1005b33, Satz-vom-Widerspruch]
 - 356
@@ -95,14 +95,14 @@
 98:
 - 9: [proteron-phusei]
 - 33ff
-- 40: [Aufgan]
+- 40: [Aufgang]
 - 55
 - 136f: [thesis, Natur]
 - 156f: [aletheia]
 - 175: [Verneh]
 - 187
 - 220
-- 241: [Aufgeh, Hervor]
+- 241: [Aufgehen, Hervor]
 - 263f: [Hervor, logos, Moira, aletheia, poiesis]
 - 355f
 - 382
@@ -129,10 +129,10 @@
 - 260
 - 267
 - 282
-- 288: [Aufgeh, Natur]
+- 288: [Aufgehen, Natur]
 101:
 - 31
-- 64: [Physik, Natur, Aufgeh, Anwahr, aletheia]
+- 64: [Physik, Natur, Aufgehen, Anwahr, aletheia]
 - 69
 - 155
 - 159

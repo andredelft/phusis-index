@@ -92,38 +92,38 @@ Er zijn ook een aantal referenties naar moderne werken:
 
 ### Andere begrippen
 
-|             Code | Toelichting                    |
-| ---------------: | :----------------------------- |
-|       `aletheia` | ἀλήθεια                        |
-| `arche-kineseos` | ἀρχὴ κινήσεως                  |
-|           `erde` | Aarde                          |
-|          `einai` | εἶναι                          |
-|    `Entmachtung` | *Entmachtung der* φύσις        |
-|          `genos` | γένος                          |
-|        `heteron` | ἕτερον                         |
-|           `hypo` | ὑπό                            |
-|       `katholou` | καθόλου                        |
-|        `kinesis` | κίνησις                        |
-|          `lethe` | λήθη                           |
-|          `logos` | λόγος                          |
-|          `Moira` | Μοῖρα                          |
-|          `moria` | Μοῖρα                          |
-|          `Natur` | Natuur                         |
-|          `noein` | νοεῖν                          |
-|             `on` | ὄν                             |
-|          `ousia` | οὐσία                          |
-|         `Physik` | Physik                         |
-|        `poiesis` | ποίησις                        |
-|          `polis` | πόλις                          |
-|         `psuche` | ψυχή                           |
-|       `Seienden` | Seienden                       |
-|           `Sein` | Sein                           |
-|      `Seinssinn` | Seinsinn                       |
-|         `techne` | τέχνη                          |
-|         `thesis` | θέσις                          |
-|         `timios` | τίμιος                         |
-|    `Anwesenheit` | Anwesenheit                    |
-|      `vorhanden` | Das immer schon vorhanden sein |
+|             Code | Toelichting                       |
+| ---------------: | :-------------------------------- |
+|       `aletheia` | ἀλήθεια                           |
+| `arche-kineseos` | ἀρχὴ κινήσεως                     |
+|           `erde` | Aarde                             |
+|          `einai` | εἶναι                             |
+|    `Entmachtung` | *Entmachtung der* φύσις           |
+|          `genos` | γένος                             |
+|        `heteros` | ἕτερος (anders/verschillend-zijn) |
+|           `hypo` | ὑπό                               |
+|       `katholou` | καθόλου                           |
+|        `kinesis` | κίνησις                           |
+|          `lethe` | λήθη                              |
+|          `logos` | λόγος                             |
+|          `Moira` | Μοῖρα                             |
+|          `moria` | μορία                             |
+|          `Natur` | Natuur                            |
+|          `noein` | νοεῖν                             |
+|             `on` | ὄν                                |
+|          `ousia` | οὐσία                             |
+|         `Physik` | Physik                            |
+|        `poiesis` | ποίησις                           |
+|          `polis` | πόλις                             |
+|         `psuche` | ψυχή                              |
+|       `Seienden` | Seienden                          |
+|           `Sein` | Sein                              |
+|      `Seinssinn` | Seinsinn                          |
+|         `techne` | τέχνη                             |
+|         `thesis` | θέσις                             |
+|         `timios` | τίμιος                            |
+|    `Anwesenheit` | Anwesenheit                       |
+|      `vorhanden` | Das immer schon vorhanden sein    |
 
 ### Variatie
 

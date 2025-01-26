@@ -1,0 +1,429 @@
+Anax:
+  label: Anaximander
+  sort_key: anax
+Anax:1:
+  label: B1
+  sort_key: anax:000001
+Anfang:
+  label: Anfang
+  sort_key: anfang
+Anwahr:
+  label: Anwahr
+  sort_key: anwahr
+Anwesenheit:
+  label: Anwesenheit
+  sort_key: anwesenheit
+Ari:
+  label: Aristoteles
+  sort_key: ari
+Ari:Ani:
+  label: De Anima
+  sort_key: ari:ani
+Ari:Cae:
+  label: De Caelo
+  sort_key: ari:cae
+Ari:Eth:
+  label: Ethica Nicomachea
+  sort_key: ari:eth
+Ari:GenCor:
+  label: De Generatione et Corruptione
+  sort_key: ari:gencor
+Ari:GenCor:2:
+  label: Ari:GenCor:2
+  sort_key: ari:gencor:000002
+Ari:Int:
+  label: De Interpretatione
+  sort_key: ari:int
+Ari:Met:
+  label: Metaphysica
+  sort_key: ari:met
+Ari:Par:
+  label: De Partibus Animalium
+  sort_key: ari:par
+Ari:Phy:
+  label: Physica
+  sort_key: ari:phy
+Ari:Pol:
+  label: Politica
+  sort_key: ari:pol
+Ari:Pol:1:
+  label: Ari:Pol:1
+  sort_key: ari:pol:000001
+Aufgang:
+  label: Aufgang
+  sort_key: aufgang
+Aufgehen:
+  label: Aufgehen
+  sort_key: aufgehen
+Aufstehen:
+  label: Aufstehen
+  sort_key: aufstehen
+Ausgang:
+  label: Ausgang
+  sort_key: ausgang
+Befreiung:
+  label: Befreiung
+  sort_key: befreiung
+Christentum:
+  label: Christentum
+  sort_key: christentum
+Dasein:
+  label: Dasein
+  sort_key: dasein
+Demokrit:
+  label: Demokrit
+  sort_key: demokrit
+Diog:
+  label: Diogenes
+  sort_key: diog
+Diog:FBDS:
+  label: Leven en leer van beroemde filosofen
+  sort_key: diog:fbds
+Emp:
+  label: Empedocles
+  sort_key: emp
+Emp:8:
+  label: B8
+  sort_key: emp:000008
+Entmachtung:
+  label: Entmachtung
+  sort_key: entmachtung
+Entstehen:
+  label: Entstehen
+  sort_key: entstehen
+Erde:
+  label: Erde
+  sort_key: erde
+Erscheinen:
+  label: Erscheinen
+  sort_key: erscheinen
+GA:
+  label: Heidegger
+  sort_key: ga
+GA:40:
+  label: GA 40
+  sort_key: ga:000040
+Ganzheit:
+  label: Ganzheit
+  sort_key: ganzheit
+Grundbegriff:
+  label: Grundbegriff
+  sort_key: grundbegriff
+Götter:
+  label: Götter
+  sort_key: götter
+Her:
+  label: Heraclitus
+  sort_key: her
+Her:112:
+  label: B112
+  sort_key: her:000112
+Her:123:
+  label: B123
+  sort_key: her:000123
+Her:30:
+  label: B30
+  sort_key: her:000030
+Her:54:
+  label: B54
+  sort_key: her:000054
+Herstellen:
+  label: Herstellen
+  sort_key: herstellen
+Hervor:
+  label: Hervor
+  sort_key: hervor
+Hippokrates:
+  label: Hippokrates
+  sort_key: hippokrates
+Hol:
+  label: Hölderlin
+  sort_key: hol
+Hol:Feiertage:
+  label: Wie wenn am Feiertage ...
+  sort_key: hol:feiertage
+Hol:Rhein:
+  label: Der Rhein
+  sort_key: hol:rhein
+Kant:
+  label: Kant
+  sort_key: kant
+Kant:KrdV:
+  label: Kritik der reinen Vernunft
+  sort_key: kant:krdv
+Kant:Vorl:
+  label: Vorlesungen Kants über Metaphysik aus drei Semestern
+  sort_key: kant:vorl
+Leben:
+  label: Leben
+  sort_key: leben
+Leukipp:
+  label: Leukipp
+  sort_key: leukipp
+Mensch:
+  label: Mensch
+  sort_key: mensch
+Metaphysik:
+  label: Metaphysik
+  sort_key: metaphysik
+Metapolitik:
+  label: Metapolitik
+  sort_key: metapolitik
+Moira:
+  label: Moira
+  sort_key: moira
+Natur:
+  label: Natur
+  sort_key: natur
+Naturwissenschaft:
+  label: Naturwissenschaft
+  sort_key: naturwissenschaft
+Parm:
+  label: Parmenides
+  sort_key: parm
+Parm:10:
+  label: B10
+  sort_key: parm:000010
+Parmenides:
+  label: Parmenides
+  sort_key: parmenides
+Phaenomen:
+  label: Phänomen
+  sort_key: phaenomen
+Physik:
+  label: Physik
+  sort_key: physik
+Pla:
+  label: Plato
+  sort_key: pla
+Pla:Nom:
+  label: Wetten
+  sort_key: pla:wetten
+Pla:Parm:
+  label: Parmenides
+  sort_key: pla:parm
+Pla:Phaedo:
+  label: Phaedo
+  sort_key: pla:phaedo
+Pla:Phaidros:
+  label: Phaedrus
+  sort_key: pla:phaidros
+Pla:Pol:
+  label: Politeia
+  sort_key: pla:pol
+Pla:Pol:454c2:
+  label: Pla:Pol:454c2
+  sort_key: pla:pol:000454c000002
+Pla:Pol:7:
+  label: Pla:Pol:7
+  sort_key: pla:pol:000007
+Pla:Soph:
+  label: Sofist
+  sort_key: pla:sof
+Pla:Theat:
+  label: Theaetetus
+  sort_key: pla:theat
+Pla:Tim:
+  label: Timeaus
+  sort_key: pla:tim
+Platon:
+  label: Plato
+  sort_key: platon
+Satz-vom-Widerspruch:
+  label: Satz vom Widerspruch
+  sort_key: satz-vom-widerspruch
+Seien:
+  label: Seien
+  sort_key: seien
+Seiende:
+  label: Seiende
+  sort_key: seiende
+Seiende-als-solches:
+  label: Seiende als solches
+  sort_key: seiende-als-solches
+Seienden:
+  label: Seienden
+  sort_key: seienden
+Seienden-im-Ganzen:
+  label: Seienden im Ganzen
+  sort_key: seienden-im-ganzen
+Sein:
+  label: Sein
+  sort_key: sein
+Seinssin:
+  label: Seinssin
+  sort_key: seinssin
+Seinssinn:
+  label: Seinssinn
+  sort_key: seinssinn
+Seyn:
+  label: Seyn
+  sort_key: seyn
+Soph:
+  label: Sophocles
+  sort_key: soph
+Soph:Aias:
+  label: Aias
+  sort_key: soph:aias
+Sophocles:
+  label: Sophocles
+  sort_key: sophocles
+Verneh:
+  label: Verneh
+  sort_key: verneh
+Vorgehen:
+  label: Vorgehen
+  sort_key: vorgehen
+Vorhanden:
+  label: Vorhanden
+  sort_key: vorhanden
+Wachsen:
+  label: Wachsen
+  sort_key: wachsen
+Walten:
+  label: Walten
+  sort_key: walten
+Wesen:
+  label: Wesen
+  sort_key: wesen
+Wiesein:
+  label: Wiesein
+  sort_key: wiesein
+aisthesis:
+  label: αίσθησις
+  sort_key: aisthesis
+aletheia:
+  label: ἀλήθεια
+  sort_key: aletheia
+arche:
+  label: ἀρχή
+  sort_key: arche
+arche-kineseos:
+  label: ἀρχὴ κινήσεως
+  sort_key: arche-kineseos
+eidos:
+  label: εἶδος
+  sort_key: eidos
+einai:
+  label: εἶναι
+  sort_key: einai
+energeia:
+  label: ἐνέργεια
+  sort_key: energeia
+episteme:
+  label: ἐπιστήμη
+  sort_key: episteme
+essentia:
+  label: essentia
+  sort_key: essentia
+ethos:
+  label: ἔθος
+  sort_key: ethos
+genos:
+  label: γένος
+  sort_key: genos
+heteros:
+  label: ἕτερος
+  sort_key: heteros
+holon:
+  label: ὅλον
+  sort_key: holon
+hypo:
+  label: ὑπό
+  sort_key: hypo
+idea:
+  label: ἰδέα
+  sort_key: idea
+kata-phusin:
+  label: κατὰ φυσιν
+  sort_key: kata-phusin
+kinesis:
+  label: κίνησις
+  sort_key: kinesis
+kosmos:
+  label: κόσμος
+  sort_key: kosmos
+krupthestai:
+  label: κρύπτεσθαι
+  sort_key: krupthestai
+lethe:
+  label: λήθη
+  sort_key: lethe
+logos:
+  label: λόγος
+  sort_key: logos
+logos-kineseos:
+  label: λόγος κινήσεως
+  sort_key: logos-kineseos
+metathesis:
+  label: μετάθεσις
+  sort_key: metathesis
+moria:
+  label: μορία
+  sort_key: moria
+noein:
+  label: νοεἶν
+  sort_key: noein
+nomos:
+  label: νόμος
+  sort_key: nomos
+'on':
+  label: ὄν
+  sort_key: 'on'
+on-katholou:
+  label: ὂν καθόλου
+  sort_key: on-katholou
+ousia:
+  label: οὐσία
+  sort_key: ousia
+pephuke:
+  label: πεφύκη
+  sort_key: pephuke
+peri-phuseos:
+  label: Περὶ Φύσεως
+  sort_key: peri-phuseos
+phuein:
+  label: φύειν
+  sort_key: phuein
+phusei-onta:
+  label: φύσει ὄντα
+  sort_key: phusei-onta
+phusika:
+  label: φυσικά
+  sort_key: phusika
+phusikos:
+  label: φυσικός
+  sort_key: phusikos
+phusiologoi:
+  label: φυσιολόγοι
+  sort_key: phusiologoi
+phusis-tis:
+  label: φύσις τις
+  sort_key: phusis-tis
+poiesis:
+  label: ποίησις
+  sort_key: poiesis
+polis:
+  label: πόλις
+  sort_key: polis
+proteron-phusei:
+  label: proteron phusei
+  sort_key: proteron-phusei
+psuche:
+  label: ψύχη
+  sort_key: psuche
+techne:
+  label: τέχνη
+  sort_key: techne
+thesis:
+  label: θέσις
+  sort_key: thesis
+timiotaton-genos:
+  label: τιμιώτατον γένος
+  sort_key: timiotaton-genos
+vorhanden:
+  label: vorhanden
+  sort_key: vorhanden
+zoia:
+  label: ζῷα
+  sort_key: zoia

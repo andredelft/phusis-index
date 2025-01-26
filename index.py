@@ -156,10 +156,36 @@ class Index:
     def __repr__(self):
         return f"<Index ({len(self.volumes)} volumes)>"
 
+    @property
+    def references(self):
+        for volume in self:
+            for reference in volume:
+                yield volume, reference
+
+    @property
+    def categories(self):
+        return sorted(set().union(*[ref.categories for _, ref in self.references]))
+
     @classmethod
     def from_yaml(cls, yaml: IndexObj):
         volumes = [Volume.from_yaml(*item) for item in yaml.items()]
         return cls(volumes)
+
+
+def in_range(year: int | None, min_year: int | None, max_year: int | None):
+    if min_year == None and max_year == None:
+        return True
+
+    if year == None:
+        return False
+
+    if min_year != None and year < min_year:
+        return False
+
+    if max_year != None and year > max_year:
+        return False
+
+    return True
 
 
 class Dating:
@@ -168,6 +194,24 @@ class Dating:
 
     def __getitem__(self, key: str):
         return self._vol_page_year_mapping.get(key)
+
+    def filter(self, index: Index, min_year: int = None, max_year: int = None):
+        """Filters a given index according to specified conditions and returns a new `Index` instance"""
+        filtered_volumes = []
+
+        for volume in index.volumes:
+            filtered_references = []
+
+            for reference in volume.references:
+                year = self.get_year(volume, reference)
+
+                if in_range(year, min_year, max_year):
+                    filtered_references.append(reference)
+
+            if filtered_references:
+                filtered_volumes.append(Volume(volume.name, filtered_references))
+
+        return Index(filtered_volumes)
 
     def get_year(self, volume: Volume, reference: Reference):
         page_year_mapping = self[volume.name]
@@ -210,7 +254,7 @@ def get_index(include_corrections=True):
 
 
 @cache
-def get_dating(date_type: str):
+def get_dating(date_type: str = "orig"):
     return Dating.from_yaml(load_dates_yaml(date_type))
 
 

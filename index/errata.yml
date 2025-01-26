@@ -28,35 +28,35 @@
 16:
 - 357
 17:
-- 169
+- 169: []
 18:
 - 3: [Grundbegriff, Ari:Met:5]
 - 172: [Ari:Met:4, Vorgehen]
-- 211: [Ari:Par:1]
-- 214f: 213
-- 218: null
-- 241: [Sein, Natur, Ari:Par:1, polis]
-- 243: [Ari:Eth:K]
+- 214f: 211-216
+- 218: 218ff
+- 224f: 223-226
+- 240f: [Sein, Natur, Ari:Par:1:1:642a28, polis]
+- 243: [Ari:Eth:10:2:1173a4]
 - 266: null
 - 284: 284f
-- 368: [Ari:Phy]
+- 368: [logos-kineseos]
 19:
 - 41: 41f
-- 81: [Ari:Met:5]
-- 87: [Ari:Phy:1]
-- 98: [Ari:Met:1]
-- 136f: [Ari:Eth:4, ousia, timiotaton-genos]
-- 336: [Plat:Phai, Seienden, Natur, psuche]
-- 364: [Plat:Phai, Seienden]
+- 81: [Ari:Met:5:26:1024a3, metathesis]
+- 87: [Ari:Phy:1:1:184a16, Natur, Dasein]
+- 98: [Ari:Met:1:1:980a21, aisthesis, Mensch]
+- 136f: [Ari:Eth:6:7:1141a34, Ari:Eth:6:7:1141b2, ousia, timiotaton-genos]
+- 336: [Pla:Phaidros:270c1, Pla:Phaidros:271a6, Pla:Phaidros:271a7, Pla:Phaidros:271a10, Seien, Natur, psuche]
+- 364: [Pla:Soph:228a7, Seienden]
+- 436f: 437
 - 540: [kinesis]
 - 548: 546ff
-- 562f: [Plat:Phai]
 - 557: 556f
-- 562f: [moria, PlaSoph, heteron]
-- 570: [PlaPol]
+- 562f: [moria, Pla:Soph:257c7, Pla:Soph:257d4, heteros]
+- 570: [Pla:Pol:454c2]
 - 631: [arche, ousia]
 21:
-- 3f: [logos, ethos, Diog:3]
+- 3f: [logos, ethos, Diog:FBDS:3:34]
 22:
 - 32: [Vorhanden]
 - 35: 35f
@@ -67,7 +67,7 @@
 23:
 - 3: [Seienden, kosmos]
 24:
-- 121: [Natur]
+- 121: [Natur, Wesen, ousia]
 - 149: [essentia, Natur]
 - 196: [essentia, Natur]
 - 330: [Natur, Wesen]
@@ -91,7 +91,7 @@
 - 8: null
 - 19ff: 18ff
 36/37:
-- 291: [Plat:Pol:7:514a1]
+- 291: [Pla:Pol:7:514a1]
 39:
 - 216: [Sophocles, Seyn]
 - 255: [Hol:Feiertage, Natur]
@@ -129,7 +129,7 @@
 - 385: null
 - 393: 394f
 63:
-- 10: [AriAni2]
+- 10: [Ari:Ani:2:8:420b18, Leben, Seienden]
 65:
 - 45
 - 115: [Entmachtung]

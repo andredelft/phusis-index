@@ -15,6 +15,16 @@ def find_closest_preceding_number(sorted_numbers: list[int], n: int) -> int | No
             return n1
 
 
+def prepend_zeroes(match_obj):
+    return f"{match_obj.group(0):>06}"
+
+
+def category_sort_key(category: str):
+    sort_key = category.lower()
+    sort_key = re.sub(r"\d+", prepend_zeroes, sort_key)
+    return sort_key
+
+
 def volume_sort_key(volume_str: str):
     return tuple(int(n) for n in re.findall(r"\d+", volume_str))
 

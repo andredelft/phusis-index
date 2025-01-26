@@ -85,59 +85,59 @@
 - 343f
 - 392
 18:
-- 45f: [AriPolA]
-- 214f: [Ari:Par:1]
-- 218: []
-- 224f: [Ari:Par:1]
+- 45f: [Ari:Pol:1:2:1253a9]
+- 214f: [Ari:Par:1:1:639a12, Ari:Par:1:1:639b14, Natur, arche-kineseos, phusei-onta, zoia, logos, psuche, phusikos, Dasein]
+- 218: [phusei-onta, Natur, phusikos]
+- 224f: [Ari:Par:1:639b19, Ari:Par:1:640b4, Ari:Par:1:641b12, Ari:Par:1:641b23, phusikos, psuche, Natur, Herstellen, techne, kata-phusin]
 - 266: []
-- 284: [Ari:Phy, kinesis]
-- 380: [Ari:Phy]
+- 284: [Ari:Phy:3:1:200b13, kinesis]
+- 380: [energeia]
 19:
-- 41: [techne, phusei-onta, Ari:Eth4, Ari:Met:7]
-- 46: [techne]
+- 41: [techne, phusei-onta, Ari:Eth:4:4:1140a]
+- 46: [techne, Ari:Eth:5:15:1138b2]
 - 89: [techne, Ari:Phy:1]
-- 210f: [poiesis, Ari:Met:4]
+- 210f: [poiesis, Ari:Met:4:1:1003a23, phusis-tis]
 - 237: [Her:123, peri-phuseos, Parmenides]
 - 436f: [phusiologoi, Parmenides, phusei-onta, Ari:Met:4, Ari:Phy:2, arche-kineseos]
 - 451: [hypo]
 - 473: [einai]
-- 548: [genos, Plat:Phai, Sein]
-- 557: [genos, Plat:Phai]
+- 548: [genos, Pla:Soph:255e4, Sein, heteros]
+- 557: [genos, Pla:Soph:257a8]
 21:
 - 1: [episteme, Natur]
 - 77: [Anwesenheit, vorhanden]
 22:
-- 35: [phusiologoi, peri-phuseos, logos, Natur, phuein, vorhanden, Plat:Phai:96, Ari:Met:986]
-- 216: [phusiologoi, peri-phuseos, Plat:Phai:96, Ari:Met:986]
+- 35: [phusiologoi, Wachsen, peri-phuseos, logos, Natur, phuein, vorhanden, Pla:Phaedo:96a, Ari:Met:1:3:983a34, Ari:Met:1:5:986b14]
+- 216: [phusiologoi, peri-phuseos, Pla:Phaedo:96a8, Ari:Met:1:5:986b14]
 - 243: [Emp:8, Entstehen, Demokrit, Leukipp]
 - 287: [Natur]
 24:
-- 151: [phuein, Natur, herstellen]
+- 151: [phuein, Natur, Herstellen, Wachsen]
 26:
 - 221: [Natur, arche-kineseos]
 28:
 - 23ff: [Metaphysik, phusika, Seienden-im-Ganzen, kosmos, phusiologoi, kata-phusin, on-katholou, timiotaton-genos]
 29/30:
-- 38-51: [phuein, wachsen, Seienden-im-Ganzen, Natur, logos, Her:123, Her:112, aletheia, krupthestai, phusiologoi, Walten, Her:54, Her:30, Physik, Metaphysik, phusei-onta, ousia, on-katholou, timiotaton-genos]
+- 38-51: [phuein, Wachsen, Seienden-im-Ganzen, Natur, logos, Her:123, Her:112, aletheia, krupthestai, phusiologoi, Walten, Her:54, Her:30, Physik, Metaphysik, phusei-onta, ousia, on-katholou, timiotaton-genos, kata-phusin]
 - 54: [ethos, logos]
-- 444: [Ari:Org:2:16a27ff, logos]
-- 447: [Ari:Org:2:16a27ff, logos] 
+- 444: [Ari:Int:2:16a27ff, logos]
+- 447: [Ari:Int:2:16a27ff, logos] 
 33:
 - 29f: [Walten, phusis-tis, Ari:Met:4:1:1003a27, Ari:Met:4:1:1003b22]
 - 179: []
 34:
 - 13f: [Her:123, Natur, Walten, aletheia]
 - 105: []
-- 115: [Plat:Pol:7:514a1, Walten]
-- 235-238: [Plat:Theat:186b11, Natur]
+- 115: [Pla:Pol:7:514a1, Walten]
+- 235-238: [Pla:Theat:186b11, Natur]
 35:
 - 8: []
-- 19ff: [Soph:Aias:647, phuein, Walten, Natur, Anax:1, Her:123, Aufgehen]
+- 19ff: [Soph:Aias:647, phuein, Walten, Natur, Anax:1, Her:123, Aufgehen, Wachsen, Erde]
 - 217f: [Soph:Aias:647, phuein, Walten, Natur, Anax:1, Aufgehen]
 36/37:
 - 20: [Metaphysik, Natur, Walten, Seiende, Physik, episteme, thesis]
 39:
-- 195f: [Hol:Rhein, Natur, Christentum, Naturwissenschaft]
+- 195f: [Hol:Rhein, Natur, Christentum, Naturwissenschaft, Erde]
 40:
 - 15-20
 - 65-68
@@ -170,7 +170,7 @@
 - 97f
 - 209ff
 45:
-- 97: [Aufgan]
+- 97: [Aufgang]
 - 129ff: [Seiende-als-solches]
 - 137: [Seiende-als-solches]
 - 139: [Verneh]
@@ -200,12 +200,12 @@
 - 135
 - 140
 54:
-- 100: [Aufgeh]
+- 100: [Aufgehen]
 - 151: [Natur]
 - 176: [lethe]
-- 206f: [Aufgeh, aletheia]
-- 211f: [erde, Soph:Aias:647, Aufgeh]
-- 233: [phuein, Aufgeh]
+- 206f: [Aufgehen, aletheia]
+- 211f: [Erde, Soph:Aias:647, Aufgehen]
+- 233: [phuein, Aufgehen]
 - 242: [aletheia]
 55:
 - 16f
@@ -231,14 +231,14 @@
 - 365ff
 - 371
 62:
-- 41: [Ari:Met:A2]
+- 41: [Ari:Met:1:2:982b28-29]
 - 99: [Ari:Phy:8, kinesis]
-- 187: [AriCoeC1, Parmenides]
+- 187: [Ari:Cae:3:1:298b12-24, Parmenides]
 - 212: [nomos, Parmenides]
 - 229: [Parmenides]
-- 253: [Ari:Phy]
+- 253: [Ari:Phy:1:2, Ari:Phy:1:3]
 - 270f: [Ausgang, Physik, kinesis]
-- 305: [Wiesein]
+- 305: [Wiesein, Leben]
 - 324: [Ari:Phy:8]
 - 333: [nomos]
 - 385: []
@@ -387,9 +387,9 @@
 - 209
 - 269
 83:
-- 3f: [Natur, arche-kineseos, Ari:Phy:3]
-- 121: [Plat:Nom:10:892c4, psuche]
-- 137: [Plat:Phai:269c3, Plat:Phai:269e4, Plat:Phai:270a5, Aufgehen, Erscheinen, Aufgang, techne, thesis, Plat:Phai:270b4, psuche, Plat:Parm:139d2, Plat:Parm:139e9, Plat:Parm:147e5, Plat:Parm:153b8, Plat:Parm:158c6, Plat:Parm:158d6, Plat:Parm:158e2, Parm:10, holon, Plat:Phai:270d1, Hippokrates, Plat:Phai:270c10, Plat:Phai:271a7, noein, eidos, Plat:Phai:270c2, phaenomen, Plat:Phai:272a2, Plat:Phai:270e3]
+- 3f: [Natur, arche-kineseos, Ari:Phy:3:1:200b12]
+- 121: [Pla:Nom:10:892c4, psuche]
+- 137: [Pla:Phaidros:269c3, Pla:Phaidros:269e4, Pla:Phaidros:270a5, Aufgehen, Erscheinen, Aufgang, techne, thesis, Pla:Phaidros:270b4, psuche, Pla:Parm:139d2, Pla:Parm:139e9, Pla:Parm:147e5, Pla:Parm:153b8, Pla:Parm:158c6, Pla:Parm:158d6, Pla:Parm:158e2, Parm:10, holon, Pla:Phaidros:270d1, Hippokrates, Pla:Phaidros:270c10, Pla:Phaidros:271a7, noein, eidos, Pla:Phaidros:270c2, Phaenomen, Pla:Phaidros:272a2, Pla:Phaidros:270e3]
 - 140: []
 - 159
 - 185
