@@ -3,7 +3,7 @@ from typing import TypedDict
 # YAML Data types
 
 RefValue = str | int
-Categories = list[str]
+Categories = list[str] | list[list[str]]
 
 VolumeName = str | int
 ReferenceObj = RefValue | dict[RefValue, Categories]

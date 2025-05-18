@@ -8,7 +8,7 @@ def references():
     r2 = Reference.from_yaml("23ff.")
     r3 = Reference.from_yaml({"30-35": ["Her:123", "techne"]})
 
-    return r1, r2, r3
+    return next(r1), next(r2), next(r3)
 
 
 @pytest.fixture
@@ -44,7 +44,7 @@ def test_volume(volume):
     assert volume.name == "6.1"
     assert volume.part_name == "published"
     assert len(volume) == 10
-    assert [str(r) for r in volume] == ["23ff", "28", "30-35"]
+    assert [str(r) for r in volume] == ["23ff", "28", "30–35"]
 
 
 def test_index(index):

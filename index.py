@@ -1,13 +1,34 @@
 import re
-from typing import Self
+from typing import Self, Iterable, Generator
 from functools import cache
+from itertools import chain
 
 from utils import volume_sort_key, find_closest_preceding_number
 from load import load_index_yaml, load_parts_yaml, load_dates_yaml
-from consts import ReferenceObj, IndexObj, DatesObj, VolumeName
+from consts import ReferenceObj, IndexObj, DatesObj, VolumeName, RefValue
 
 
 REF_REGEX = re.compile(r"^(?P<start>\d+)(?:-(?P<end>\d+)|(?P<suffix>f{1,2})\.?)?$")
+
+
+def parse_ref(ref: RefValue):
+    m = REF_REGEX.match(str(ref))
+
+    if not m:
+        raise InvalidReference(f"Reference '{ref}' is invalid")
+
+    start, end, suffix = m.groups()
+
+    start = int(start)
+
+    if end:
+        end = int(end)
+    elif suffix:
+        end = start + len(suffix)
+    else:
+        end = None
+
+    return start, end
 
 
 class InvalidReference(Exception):
@@ -19,19 +40,19 @@ class Reference:
         self,
         start: int,
         end: int | None = None,
-        categories: set[str] = set(),
+        categories: list[str] = [],
     ):
         self.start = start
         self.end = end
-        self.categories = categories
+        self.categories = set(categories)
 
     def __str__(self):
         if not self.end:
             return str(self.start)
-        elif self.end - self.start <= 2:
-            return f"{self.start}{'f' * (self.end - self.start)}"
+        elif (delta := self.end - self.start) <= 2:
+            return f"{self.start}{'f' * delta}"
         else:
-            return f"{self.start}-{self.end}"
+            return f"{self.start}–{self.end}"
 
     def __repr__(self):
         category_str = ", ".join(sorted(self.categories))
@@ -59,46 +80,41 @@ class Reference:
             return self.end - self.start + 1
 
     @classmethod
-    def from_yaml(cls, yaml: ReferenceObj):
+    def from_yaml(cls, yaml: ReferenceObj) -> Generator[Self]:
+
         if isinstance(yaml, dict):
             if len(yaml) != 1:
                 raise ValueError(f"Reference has invalid format: {yaml}")
 
             reference, categories = next(item for item in yaml.items())
 
-            ref_str = str(reference)
+            start, end = parse_ref(reference)
 
             if isinstance(categories, str):
                 raise DeprecationWarning(
                     f"Category '{categories}' must be contained in a list"
                 )
+            elif end and (len(categories) > 0) and isinstance(categories[0], list):
+                # categories is list of lists -> categories are specified per page
+                if len(categories) > end - start + 1:
+                    raise ValueError(
+                        f"More pages are specified in categories ({len(categories)}) than present in reference {reference}"
+                    )
 
-            categories = set(categories)
+                for page, page_categories in enumerate(categories, start=start):
+                    yield cls(page, None, page_categories)
+
+                return
+
         else:
-            ref_str = str(yaml)
-            categories: set[str] = set()
+            start, end = parse_ref(yaml)
+            categories = []
 
-        m = REF_REGEX.match(ref_str)
-
-        if not m:
-            raise InvalidReference(f"Reference '{ref_str}' is invalid")
-
-        start, end, suffix = m.groups()
-
-        start = int(start)
-
-        if end:
-            end = int(end)
-        elif suffix:
-            end = start + len(suffix)
-        else:
-            end = None
-
-        return cls(start, end, categories)
+        yield cls(start, end, categories)
 
 
 class Volume:
-    def __init__(self, name: str, references: list[Reference]):
+    def __init__(self, name: str, references: Iterable[Reference]):
         self.name = name
         self.references = sorted(references)
         self._sort_key = volume_sort_key(self.name)
@@ -130,7 +146,9 @@ class Volume:
 
     @classmethod
     def from_yaml(cls, name: VolumeName, yaml: list[ReferenceObj]):
-        return cls(str(name), [Reference.from_yaml(item) for item in yaml])
+        return cls(
+            str(name), chain.from_iterable(Reference.from_yaml(item) for item in yaml)
+        )
 
 
 class Index:
