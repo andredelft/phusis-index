@@ -79,7 +79,7 @@ Er zijn ook een aantal referenties naar moderne werken:
 
 |                  Code | Toelichting                     |
 | --------------------: | :------------------------------ |
-|  `Seienden-im-Ganzen` | Vert. als *Seiende im Ganzen*   |
+|   `Seiende-im-Ganzen` | Vert. als *Seiende im Ganzen*   |
 | `Seiende-als-solches` | Vert. als *Seiende als solches* |
 |              `ReiAuf` | Vert. als *Reine Aufgehen*      |
 |              `Aufgeh` | Vert. als *Aufgehen*            |

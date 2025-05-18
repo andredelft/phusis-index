@@ -244,9 +244,9 @@ Seiende-als-solches:
 Seienden:
   label: Seienden
   sort_key: seienden
-Seienden-im-Ganzen:
-  label: Seienden im Ganzen
-  sort_key: seienden-im-ganzen
+Seiende-im-Ganzen:
+  label: Seiende im Ganzen
+  sort_key: Seiende-im-Ganzen
 Sein:
   label: Sein
   sort_key: sein
