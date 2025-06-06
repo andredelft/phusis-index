@@ -18,9 +18,10 @@ GA:
 - '40'
 Her:
 - '123'
-- '30'
 - '112'
 - '54'
+- '30'
+- '1'
 Hol:
 - Rhein
 - Feiertage
@@ -29,6 +30,8 @@ Kant:
 - KrdV
 Parm:
 - '10'
+Pind:
+- Ol
 Pla:
 - Phaidros
 - Soph

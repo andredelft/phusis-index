@@ -60,7 +60,6 @@ def by_category_and_year(index: Index, dating: Dating):
         for category in ref.categories:
             if ":" in category:
                 author, work, *_ = category.split(":")
-                print(author, work)
 
                 bibl_index[author] = bibl_index.get(author, {})
                 bibl_index[author][work] = bibl_index[author].get(work, {})
