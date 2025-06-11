@@ -5,11 +5,11 @@
 - 460: [Her:123, aletheia]
 - 481: [Her:123]
 80.2:
-- 600: [Erde]
-- 604: [Erde, Her:123]
-- 631: [Erde]
-- 686f: [Her:123]
-- 689
+- 600: [Aufgehen, Aufleuchten, Erde, phaos]
+- 604: [Aufgehen, Erde, Her:123]
+- 631: [Aufgehen, Aufleuchten, Erde, phaos]
+- 686f: [Her:123, Naturphilosophen, Natur, Aufgehen, phaos, Aufleuchten, aletheia]
+- 689: [Aufgehen, Erscheinen]
 - 791
 - 806ff
 - 812
@@ -27,19 +27,19 @@
 - 1330f
 - 1341f: [Her:123]
 82:
-- 12
-- 25
-- 36
-- 67
-- 69
-- 72
-- 90
-- 102
-- 106f: [poiesis]
-- 110
-- 121
-- 151
-- 159
+- 12: [GA:2, idea, aletheia, GA:40]
+- 25: [GA:2, Erscheinen, GA:40]
+- 36: [GA:2, aletheia, doxa, logos, Anaximander, Aristoteles]
+- 67: [GA:2, aletheia]
+- 69: [GA:2, Natur]
+- 72: [idea, logos, aletheia, Vorhandenheit]
+- 90: [idea, aletheia]
+- 102: [aletheia]
+- 106f: [aletheia, GA:40, Afgehen, Walten, Entmachtung, GA:73.1]
+- 110: [aletheia]
+- 121: [Vorhandenheit]
+- 151: [eidos, techne]
+- 159: [aletheia]
 - 207f
 - 226f
 - 256ff
